@@ -1,0 +1,4208 @@
+WEBVTT
+
+00:00:01.504 --> 00:00:05.373
+Okay, hello and good, I guess, afternoon.
+
+00:00:06.624 --> 00:00:09.254
+Nice to see so many of you here, actually.
+
+00:00:09.264 --> 00:00:14.784
+So we have, for a reason or another,
+doubled the registrations this year, so
+
+00:00:14.784 --> 00:00:18.853
+we have 55 students. The classroom fits
+only
+
+00:00:19.504 --> 00:00:20.504
+36.
+
+00:00:21.144 --> 00:00:26.104
+So let's, luckily there are some people at
+Zoom, so hopefully everybody doesn't
+
+00:00:26.104 --> 00:00:28.573
+come here, so, so you don't have to
+
+00:00:29.264 --> 00:00:30.974
+sit on the floor or something.
+
+00:00:32.584 --> 00:00:33.584
+uh,
+
+00:00:34.383 --> 00:00:38.344
+so to start, I would like to ask, so I can
+see some cognitive scientists, I'm of
+
+00:00:38.344 --> 00:00:42.464
+course from cognitive science myself, but
+it looks like there are a lot of
+
+00:00:42.464 --> 00:00:45.304
+people from other disciplines and
+faculties.
+
+00:00:45.304 --> 00:00:46.304
+So
+
+00:00:46.304 --> 00:00:51.333
+who is not from cognitive science but is
+from the central campus?
+
+00:00:53.984 --> 00:00:58.413
+Okay, quite a few. How about how many are
+from Kumpula?
+
+00:01:01.304 --> 00:01:03.473
+And how many are from somewhere else
+
+00:01:04.144 --> 00:01:06.693
+than Central Campus or Kumpulan?
+
+00:01:07.904 --> 00:01:10.174
+Okay, everybody's from either or.
+
+00:01:10.744 --> 00:01:11.744
+uh,
+
+00:01:12.424 --> 00:01:14.904
+so how did you hear about this in
+Kumpulan?
+
+00:01:14.904 --> 00:01:17.813
+Because we had a real influx of students
+
+00:01:18.544 --> 00:01:22.693
+from there, so in computer science or data
+science.
+
+00:01:24.983 --> 00:01:27.494
+I found it in CISO. Okay. It's the
+
+00:01:28.144 --> 00:01:30.394
+program that I need. Okay. For study.
+
+00:01:30.584 --> 00:01:35.104
+Okay, very nice. Well, welcome to the
+Central Campus and Cognitive Science and
+
+00:01:35.104 --> 00:01:40.094
+this very old building, if you haven't
+been here yet, with weird paintings and
+
+00:01:40.144 --> 00:01:41.144
+statues.
+
+00:01:42.224 --> 00:01:44.373
+uh, okay, but let's get started.
+
+00:01:44.504 --> 00:01:49.544
+First, we'll go over some practicalities
+and a basic introduction to the, what
+
+00:01:49.544 --> 00:01:50.614
+the course is.
+
+00:01:51.664 --> 00:01:54.054
+So here are the course personnel.
+
+00:01:54.744 --> 00:01:56.424
+So my name is Jami Pekkanen.
+
+00:01:56.424 --> 00:01:57.424
+I am currently
+
+00:01:58.304 --> 00:02:03.084
+university lecturer in cognitive science,
+actually substituting Otto Lappi, who
+
+00:02:03.084 --> 00:02:04.084
+is on a,
+
+00:02:05.664 --> 00:02:07.494
+on a research sabbatical.
+
+00:02:08.304 --> 00:02:12.144
+But we will also have Juraj Šimko in this
+course.
+
+00:02:12.144 --> 00:02:16.424
+Today he is not here because he's on a
+trip, so I will be handling this lecture,
+
+00:02:16.424 --> 00:02:19.614
+but he will join us in further sessions.
+
+00:02:24.304 --> 00:02:28.984
+And so officially it's just me and Juraj
+in this course, but there is
+
+00:02:28.984 --> 00:02:33.424
+constantly, uh, the spirit of Otto lying
+around.
+
+00:02:33.424 --> 00:02:38.784
+You will see that later, but, uh, you will
+see in a lot of the video lectures
+
+00:02:38.784 --> 00:02:44.014
+that he has also prepared a lot of
+material of the course he used to run this,
+
+00:02:44.224 --> 00:02:48.413
+uh, before, but we are updating it also as
+we, as we go.
+
+00:02:49.544 --> 00:02:52.894
+But you will be see- seeing and hearing a
+lot of Otto too.
+
+00:02:57.704 --> 00:03:02.424
+So very briefly, what are the objectives
+of the course, what you should learn
+
+00:03:02.424 --> 00:03:07.993
+here? So the goal is that you will develop
+a conceptual understanding of
+
+00:03:08.344 --> 00:03:11.013
+cognitive models, or let's say some
+
+00:03:11.824 --> 00:03:13.853
+techniques of cognitive modeling.
+
+00:03:14.544 --> 00:03:20.104
+uh, what cognitive modeling more ac-
+exactly is will uh become apparent later,
+
+00:03:20.104 --> 00:03:21.293
+but they uh...
+
+00:03:23.064 --> 00:03:24.064
+but the
+
+00:03:24.744 --> 00:03:28.614
+important thing here is that this is a
+conceptual understanding.
+
+00:03:28.623 --> 00:03:29.623
+We won't go
+
+00:03:30.024 --> 00:03:32.794
+very deep in the technicalities of the
+methods.
+
+00:03:32.944 --> 00:03:37.333
+You will understand sort of how they work
+and how we could use them to
+
+00:03:37.984 --> 00:03:42.854
+study and model human or some other
+entity's behavior.
+
+00:03:43.183 --> 00:03:47.304
+So if you are from computer science, have
+studied like machine learning, for
+
+00:03:47.304 --> 00:03:51.494
+example, or are from physics who and have
+studied dynamical systems,
+
+00:03:52.424 --> 00:03:57.173
+the technical Coverage will be very light,
+but hopefully you, uh,
+
+00:03:57.664 --> 00:04:01.864
+hopefully then you could also appreciate
+your existing skills, how you could
+
+00:04:01.864 --> 00:04:04.794
+apply, uh, them for modeling
+
+00:04:05.544 --> 00:04:09.653
+behavior and, uh, information processing
+of cognitive systems.
+
+00:04:11.984 --> 00:04:17.354
+Impo- importantly, we will learn to, uh,
+appreciate what assumptions,
+
+00:04:17.824 --> 00:04:23.253
+uh, we put in the models and how do they
+re- they relate to other theory
+
+00:04:23.464 --> 00:04:24.464
+of,
+
+00:04:24.664 --> 00:04:30.064
+of cognitive systems and cognitive
+behavior, and also briefly how to evaluate
+
+00:04:30.064 --> 00:04:32.793
+them empirically so, so we can
+
+00:04:33.664 --> 00:04:38.373
+assess whether they actually model some
+system that we want them to model.
+
+00:04:40.624 --> 00:04:42.474
+And also we will understand
+
+00:04:43.104 --> 00:04:44.774
+the limits of modeling,
+
+00:04:45.664 --> 00:04:50.653
+so actually how narrow things we really
+can model with these.
+
+00:04:50.664 --> 00:04:56.104
+We don't, we cannot model whole human or a
+whole cat, so we will have to
+
+00:04:56.104 --> 00:04:57.104
+be very
+
+00:04:57.544 --> 00:05:03.032
+careful in what slices of behavior we
+model, uh,
+
+00:05:03.104 --> 00:05:04.974
+with these computational models.
+
+00:05:05.184 --> 00:05:09.413
+But also, uh, we will discuss what the,
+what the benefits, what
+
+00:05:10.084 --> 00:05:15.224
+extra explanatory and understanding
+powers, uh, this computational
+
+00:05:15.224 --> 00:05:17.613
+modeling of cognition brings.
+
+00:05:22.504 --> 00:05:24.493
+Okay, then the practicalities.
+
+00:05:24.624 --> 00:05:27.173
+So every week we will have this meeting.
+
+00:05:27.184 --> 00:05:32.813
+Now I will give a lecture, but how most of
+the sessions will go
+
+00:05:33.344 --> 00:05:38.663
+is that before the session there are video
+lectures, usually two that you will
+
+00:05:38.663 --> 00:05:41.254
+watch, and then there are these, uh,
+
+00:05:42.264 --> 00:05:45.374
+checkpoint exercises, which are actually
+just, uh,
+
+00:05:46.224 --> 00:05:47.974
+two alternative questions
+
+00:05:48.584 --> 00:05:52.813
+that relate or should be answerable per
+the lectures.
+
+00:05:53.224 --> 00:05:54.224
+And then
+
+00:05:54.344 --> 00:05:59.573
+here live we have Q&A sessions where we go
+through the
+
+00:05:59.584 --> 00:06:03.824
+questions and relate them back to the
+lectures, and we can discuss them a bit
+
+00:06:03.824 --> 00:06:04.824
+further.
+
+00:06:06.144 --> 00:06:10.664
+And there are also supplementary resources
+and readings in the Moodle quite a
+
+00:06:10.664 --> 00:06:13.493
+bit, uh, if you want to look further.
+
+00:06:13.624 --> 00:06:19.024
+Many of the lectures also hint, uh, refer
+to these, so you can, uh, you
+
+00:06:19.024 --> 00:06:21.894
+can then read up on what is referred in
+the lectures.
+
+00:06:27.544 --> 00:06:30.224
+Uh. Uh, okay, well, this you probably
+already know.
+
+00:06:30.224 --> 00:06:35.494
+So every Monday here, uh, every week of
+this period,
+
+00:06:36.263 --> 00:06:41.574
+and most of the s- uh, online stuff will
+be happening in Moodle,
+
+00:06:41.944 --> 00:06:43.944
+which you hopefully should access.
+
+00:06:43.944 --> 00:06:46.944
+It should be on student registration mode.
+
+00:06:46.944 --> 00:06:50.293
+So were you able to, uh, register into
+Moodle?
+
+00:06:52.424 --> 00:06:53.493
+Yes? Okay, good.
+
+00:06:56.384 --> 00:07:01.293
+Yeah, I, I, I was able to add myself to
+the Moodle, um,
+
+00:07:01.704 --> 00:07:05.033
+page or this area or whatever, but, uh,
+
+00:07:05.944 --> 00:07:10.184
+it says to all of these checkpoint quizzes
+and lecture slides that not
+
+00:07:10.184 --> 00:07:12.544
+available. Yes, so, so, okay.
+
+00:07:12.544 --> 00:07:17.944
+So I still haven't updated this year, so
+they will come after each of the
+
+00:07:17.944 --> 00:07:23.333
+Monday's lecture. We will release the
+videos and and questions that
+
+00:07:23.504 --> 00:07:24.504
+should be
+
+00:07:24.704 --> 00:07:26.333
+done by the next lecture.
+
+00:07:29.104 --> 00:07:30.104
+Okay.
+
+00:07:30.464 --> 00:07:31.464
+Thanks.
+
+00:07:33.464 --> 00:07:38.144
+Okay, then the course schedule, and here
+you may maybe see why uh why we are
+
+00:07:38.144 --> 00:07:42.654
+doing this structure instead of having
+straight straight up lectures.
+
+00:07:43.264 --> 00:07:44.264
+So
+
+00:07:44.984 --> 00:07:45.984
+we will cover
+
+00:07:46.904 --> 00:07:50.984
+symbolic modeling, reinforcement learning,
+Bayesian modeling, information
+
+00:07:50.984 --> 00:07:51.984
+theory.
+
+00:07:52.504 --> 00:07:57.174
+we'll go quite deep in dynamical systems
+because Jura is an expert in them.
+
+00:07:57.584 --> 00:08:00.253
+Then some control theory, predictive
+processing,
+
+00:08:01.744 --> 00:08:05.693
+various kinds of neural networks, and then
+as a new,
+
+00:08:07.744 --> 00:08:12.664
+new addition this year, then we will have
+a live lecture about large language
+
+00:08:12.664 --> 00:08:14.633
+models, but from the perspective of
+
+00:08:15.424 --> 00:08:16.424
+how,
+
+00:08:16.544 --> 00:08:21.704
+whether, whether and how, in what
+properties they could be used, uh, to model,
+
+00:08:21.704 --> 00:08:23.373
+for example, human behavior.
+
+00:08:25.144 --> 00:08:26.813
+So we have quite a bit of
+
+00:08:27.664 --> 00:08:33.224
+stuff to cover, uh, so, so that's why
+we'll have to do it in those online
+
+00:08:33.224 --> 00:08:35.054
+lectures. And then we have the quizzes.
+
+00:08:35.664 --> 00:08:40.504
+Uh, but I would say that the quizzes as
+such are not that hard to do.
+
+00:08:40.504 --> 00:08:45.984
+They're more for you yourself to assess
+whether you have figured out the
+
+00:08:45.984 --> 00:08:46.984
+stuff.
+
+00:08:47.384 --> 00:08:52.313
+So, so you can probably pass the course
+quite easily if you just want to, uh,
+
+00:08:53.064 --> 00:08:58.384
+code. through it, but I invite you to, uh,
+think a bit deeper about these and
+
+00:08:58.384 --> 00:09:03.034
+sort of if you go to the questions,
+really, can I, can I really
+
+00:09:04.064 --> 00:09:08.253
+figure out, do I know why this claim is
+correct or incorrect?
+
+00:09:14.184 --> 00:09:18.464
+Okay, so as I hinted already, we will have
+these checkpoint exercises, which are
+
+00:09:18.464 --> 00:09:23.414
+actually just claims, and you have to say
+whether the claim is, uh, correct or
+
+00:09:23.464 --> 00:09:24.464
+incorrect,
+
+00:09:25.264 --> 00:09:29.774
+uh, and you get some feedback, uh, on the
+quest- on the answer,
+
+00:09:30.384 --> 00:09:35.824
+no matter whether it was right or wrong,
+uh, and those give you some
+
+00:09:35.824 --> 00:09:38.933
+ideas on what, uh, what to study further.
+
+00:09:40.064 --> 00:09:44.344
+So we will take the, at least the most
+difficult ones based on the answer
+
+00:09:44.344 --> 00:09:49.224
+statistics here and discuss them and go o-
+go back to the lectures, uh, to see
+
+00:09:49.224 --> 00:09:50.574
+the, see how,
+
+00:09:51.264 --> 00:09:54.853
+wh- what's the rationale for the answers.
+
+00:09:56.864 --> 00:10:01.894
+And the instructions will be, uh, provided
+in Moodle a bit later.
+
+00:10:08.504 --> 00:10:14.073
+And then the course will be graded, uh,
+with the final exam, which will,
+
+00:10:15.544 --> 00:10:20.694
+be handled in examinarium. By the way, do
+you have examinarium in Kumpula
+
+00:10:21.064 --> 00:10:22.384
+as well, or do you have to go?
+
+00:10:22.384 --> 00:10:23.773
+So you don't have to come here.
+
+00:10:24.224 --> 00:10:25.224
+Okay, good.
+
+00:10:26.744 --> 00:10:29.093
+and the exam itself will be
+
+00:10:30.064 --> 00:10:33.193
+very similar to the assignment questions.
+
+00:10:33.424 --> 00:10:36.454
+Some, some actually may be even the same,
+so it
+
+00:10:37.144 --> 00:10:40.933
+may pay off to pay attention to the
+assignment questions,
+
+00:10:41.584 --> 00:10:42.584
+uh,
+
+00:10:44.144 --> 00:10:45.984
+but there will be also some new ones.
+
+00:10:45.984 --> 00:10:51.424
+And in the in the exam, you also have to
+give brief explanations, uh, rationale
+
+00:10:51.424 --> 00:10:56.934
+why you answer the prokla- and se- select
+the option that you did.
+
+00:11:00.064 --> 00:11:05.344
+Exact dates will be in Moodle later on,
+but roughly we
+
+00:11:05.344 --> 00:11:10.354
+usually open the examinarium and keep it
+open quite long, so probably until
+
+00:11:10.384 --> 00:11:15.664
+January, but if you need your grade
+earlier than that, then do it earlier than
+
+00:11:15.664 --> 00:11:19.653
+that and, uh, contact us so we can grade
+you earlier.
+
+00:11:25.464 --> 00:11:26.464
+Okay, this
+
+00:11:27.184 --> 00:11:29.213
+covers, uh, the,
+
+00:11:30.104 --> 00:11:35.493
+the practicalities. Soon we will be
+entering the lecture proper, but here any
+
+00:11:35.504 --> 00:11:39.693
+questions about the practicalities or, or,
+or sort of the
+
+00:11:40.344 --> 00:11:41.344
+theme or
+
+00:11:41.824 --> 00:11:43.894
+learning objectives of the course?
+
+00:11:45.304 --> 00:11:50.313
+Well, maybe like, uh, what is already open
+in Moodle is the course readings, uh,
+
+00:11:50.744 --> 00:11:51.854
+I guess those are,
+
+00:11:52.544 --> 00:11:53.544
+those would be,
+
+00:11:54.263 --> 00:11:57.133
+uh, right, they are books. So, um,
+
+00:11:58.263 --> 00:12:00.153
+so are these, uh,
+
+00:12:01.184 --> 00:12:02.184
+kind of for,
+
+00:12:03.824 --> 00:12:08.264
+you know, uh, getting a deeper understanding
+of a specific topic, or are they
+
+00:12:08.264 --> 00:12:09.653
+actually sort of
+
+00:12:10.824 --> 00:12:12.093
+intended for the
+
+00:12:13.544 --> 00:12:16.014
+exam or for the checkpoint questions?
+
+00:12:16.424 --> 00:12:21.024
+Uh, so they are more in- intended for,
+let's say, deeper study.
+
+00:12:21.024 --> 00:12:26.504
+You should be able to answer the questions
+based on the material in
+
+00:12:26.504 --> 00:12:27.854
+the lectures, but you
+
+00:12:28.584 --> 00:12:33.854
+may want to read up on them about because
+in a lecture you can only say so much,
+
+00:12:34.104 --> 00:12:39.214
+uh, so you, especially when it, when the
+lectures refer to some material, you
+
+00:12:39.744 --> 00:12:44.814
+may want to look up it in the Moodle, the
+link in the Moodle to that,
+
+00:12:45.544 --> 00:12:47.864
+and of course if you're interested in
+further studies.
+
+00:12:47.864 --> 00:12:51.344
+So there is a lot of, lot of material, a
+lot of papers, and they're not
+
+00:12:51.344 --> 00:12:53.234
+particularly well organized, but
+
+00:12:54.544 --> 00:12:59.053
+you can take a look and use the lecture
+references to get hints what to read.
+
+00:13:04.664 --> 00:13:05.973
+Okay, well then
+
+00:13:06.944 --> 00:13:12.424
+this lecture's topic, uh, which won't have
+a quiz proper, you will have a quiz
+
+00:13:12.424 --> 00:13:15.813
+about two video lectures, uh, but this is
+sort of a
+
+00:13:16.784 --> 00:13:17.784
+introduction
+
+00:13:18.704 --> 00:13:21.944
+to the cognitive modeling as as sort of a
+field.
+
+00:13:21.944 --> 00:13:22.944
+So,
+
+00:13:23.664 --> 00:13:26.094
+so what is cognitive modeling and
+
+00:13:26.704 --> 00:13:31.784
+why do we do it? What are the benefits and
+what and why actually why not do it
+
+00:13:31.784 --> 00:13:36.133
+when when you would not want to use
+cognitive modeling.
+
+00:13:36.904 --> 00:13:41.933
+And also we very briefly go into how, but
+actually the how
+
+00:13:42.304 --> 00:13:43.304
+will be then
+
+00:13:44.384 --> 00:13:45.384
+more the
+
+00:13:46.744 --> 00:13:49.104
+more covered in the rest of the course.
+
+00:13:49.104 --> 00:13:50.104
+So we won't go
+
+00:13:50.664 --> 00:13:55.794
+into any specific techniques now, but just
+sort of motivate and and frame
+
+00:13:56.224 --> 00:13:58.173
+what cognitive modeling is.
+
+00:14:05.504 --> 00:14:07.593
+Okay, so the question to cover
+
+00:14:08.784 --> 00:14:14.213
+in in mo- the rest of the lecture will be
+mostly answering the question,
+
+00:14:14.784 --> 00:14:18.254
+what is cognitive modeling? We have some
+why in there as well.
+
+00:14:22.304 --> 00:14:27.664
+So we have these two sort of terms,
+cognitive and modeling, which may be a bit
+
+00:14:27.664 --> 00:14:31.944
+unclear and which meanings also may depend
+on the context.
+
+00:14:31.944 --> 00:14:36.734
+Maybe to hint that I have also capitalized
+them, so we are, uh, defining a bit
+
+00:14:36.744 --> 00:14:40.693
+for the purposes of this course what these
+both mean.
+
+00:14:44.944 --> 00:14:49.734
+But let's start de- decomposing this by
+first asking alone,
+
+00:14:50.344 --> 00:14:51.813
+what is cognitive?
+
+00:14:56.384 --> 00:15:01.084
+Okay, when when this question is asked,
+that there is actually ambiguity of what
+
+00:15:01.084 --> 00:15:06.344
+is being asked, and oftentimes you may not
+appreciate the ambiguity in
+
+00:15:06.344 --> 00:15:07.344
+here,
+
+00:15:07.864 --> 00:15:12.934
+but es- especially in how English works,
+this can be two different questions.
+
+00:15:14.704 --> 00:15:15.894
+So we can ask
+
+00:15:16.663 --> 00:15:22.013
+what entities are cognitive, what's what
+organisms are, what systems,
+
+00:15:22.384 --> 00:15:24.054
+uh, are cognitive
+
+00:15:24.864 --> 00:15:26.774
+in some sense, or
+
+00:15:27.383 --> 00:15:29.514
+what makes something cognitive?
+
+00:15:29.744 --> 00:15:34.974
+What is the property, uh, of the system,
+or actually, as we see, a behavior,
+
+00:15:35.264 --> 00:15:38.974
+uh, that is cognitive or something
+underlying the behavior.
+
+00:15:39.104 --> 00:15:44.544
+So it's not necessarily a property of an
+entity, but it can
+
+00:15:44.544 --> 00:15:48.093
+be more property of some kind of a
+process, for example.
+
+00:15:52.184 --> 00:15:54.574
+But let's start maybe with the a bit
+
+00:15:56.104 --> 00:16:00.394
+easier question, or not not sure if it's
+easier, but people will have more
+
+00:16:00.464 --> 00:16:02.014
+intuitions about this.
+
+00:16:03.024 --> 00:16:07.693
+So we'll ask, what entities are cognitive?
+
+00:16:08.024 --> 00:16:11.263
+Okay, we haven't defined cognitive, that
+is sort of the whole point of this, so
+
+00:16:11.263 --> 00:16:15.734
+then it may start a bit circular, but for
+now you can take co- cognitive, you
+
+00:16:15.983 --> 00:16:20.344
+like take from your intuition, like what
+is, what is intelligent?
+
+00:16:20.344 --> 00:16:25.014
+What kind of entities are intelligent or
+smart in some sense.
+
+00:16:28.784 --> 00:16:34.273
+Okay, so how many of you would think that,
+uh, humans are
+
+00:16:34.983 --> 00:16:40.104
+cognitive or intelligent agents or do
+cognitive or intelligent
+
+00:16:40.104 --> 00:16:44.154
+stuff? Uh, let's say here you, you may,
+uh,
+
+00:16:45.504 --> 00:16:50.824
+people may vary in their level of
+intelligence, uh, but here we
+
+00:16:50.824 --> 00:16:56.184
+don't necessarily mean, uh, intelligence
+as such, but if you take a typical
+
+00:16:56.184 --> 00:17:01.473
+per- person, what are their capabilities
+of conducting sort of
+
+00:17:01.504 --> 00:17:06.734
+tasks in, let's say, com- if we compare to
+other kinds of systems, if we
+
+00:17:06.744 --> 00:17:12.014
+compare to, say, uh, the video projector,
+we may be quite a bit more
+
+00:17:12.264 --> 00:17:16.874
+intelligent and su- such, and this is sort
+of the differences in these classes
+
+00:17:16.944 --> 00:17:17.944
+are
+
+00:17:18.024 --> 00:17:19.294
+more important,
+
+00:17:19.983 --> 00:17:21.693
+are the point here. Actually,
+
+00:17:22.664 --> 00:17:26.574
+as cognitive science, so this is often
+what separates cognitive science from
+
+00:17:26.584 --> 00:17:27.584
+psychology,
+
+00:17:28.264 --> 00:17:32.234
+is that often in psychology the point of
+interest is
+
+00:17:33.024 --> 00:17:34.024
+in
+
+00:17:34.184 --> 00:17:36.574
+differences between individuals.
+
+00:17:36.904 --> 00:17:41.784
+So we study the variation between
+individuals and where it could come from, how
+
+00:17:41.784 --> 00:17:47.133
+can we theorize that, but in cognitive
+science we're usually interested in how
+
+00:17:47.184 --> 00:17:52.494
+classes of systems work, uh, not
+necessarily in the difference
+
+00:17:53.064 --> 00:17:54.294
+within that class.
+
+00:17:55.864 --> 00:18:00.513
+Okay, so with this prelude, how many of
+you think that
+
+00:18:01.384 --> 00:18:05.993
+humans in gen- general, or at least some
+humans, if you think about somebody in
+
+00:18:06.024 --> 00:18:08.273
+particular right now, uh...
+
+00:18:12.384 --> 00:18:16.993
+Okay, this... So how many of you think
+that humans are
+
+00:18:17.824 --> 00:18:19.533
+cognitive or intelligent?
+
+00:18:22.144 --> 00:18:26.773
+Okay, almost everybody. Well, yeah, that's
+sort of the human is is the
+
+00:18:27.183 --> 00:18:32.623
+prototyp- typical object of study of
+cognitive science, so this m-
+
+00:18:32.623 --> 00:18:34.833
+maybe wouldn't be that sensible,
+
+00:18:36.424 --> 00:18:39.573
+if we didn't think of humans as cognitive
+science,
+
+00:18:40.384 --> 00:18:42.394
+as cognitive systems or entities.
+
+00:18:44.944 --> 00:18:48.494
+Okay, how about large language models or
+how they are
+
+00:18:49.464 --> 00:18:50.533
+implemented in
+
+00:18:51.904 --> 00:18:56.254
+chatbots? Are these Cognitive systems or
+cognitive entities.
+
+00:18:57.104 --> 00:18:58.694
+Hands up who thinks so.
+
+00:19:01.184 --> 00:19:03.534
+Okay, we are getting a bit more split.
+
+00:19:03.624 --> 00:19:06.413
+Good, good. And how many thinks that they
+are not?
+
+00:19:09.704 --> 00:19:14.024
+Okay, so it seems to be that a lot of you
+are a bit on the fence, which is
+
+00:19:14.024 --> 00:19:17.744
+probably a good thing. You don't want to
+be willy-nilly saying that something is
+
+00:19:17.744 --> 00:19:19.934
+intelligent or is not intelligent.
+
+00:19:20.464 --> 00:19:25.704
+Uh, you see that a lot of, a lot of, you
+see that constantly in
+
+00:19:25.704 --> 00:19:30.744
+public discussions and even sadly in
+philosophy of this stuff, shown quite
+
+00:19:30.744 --> 00:19:35.384
+willy-nilly that we have very strong gut
+feeling of what is intelligent and what
+
+00:19:35.384 --> 00:19:38.184
+is not, and then we form arguments based
+on that.
+
+00:19:38.184 --> 00:19:42.544
+But here we can see that at least in some
+sense we can have a deeper analysis of
+
+00:19:42.544 --> 00:19:45.493
+what would be cognitive or intelligent.
+
+00:19:48.464 --> 00:19:53.104
+How about cats? There is a specific, uh,
+cat here, but you don't know her
+
+00:19:53.104 --> 00:19:57.024
+probably very well, so you can answer, uh,
+about cats in general.
+
+00:19:57.024 --> 00:19:59.194
+So how many of you think that cats are
+
+00:20:00.224 --> 00:20:02.494
+intelligent or cognitive agents?
+
+00:20:04.064 --> 00:20:06.024
+Okay, I think a few more hands than
+humans.
+
+00:20:06.024 --> 00:20:07.024
+That's a good...
+
+00:20:10.184 --> 00:20:13.073
+We will see, be seeing Püllerve a bit more
+in this
+
+00:20:14.224 --> 00:20:15.333
+lecture too.
+
+00:20:17.624 --> 00:20:22.133
+How about delivery robots, so those things
+that autonomously or
+
+00:20:22.224 --> 00:20:26.544
+semi-autonomously, I don't know how many,
+how much there is actually some Wizard
+
+00:20:26.544 --> 00:20:30.894
+of Oz online helping them cross the roads
+or something like that.
+
+00:20:31.424 --> 00:20:37.024
+But let's say that they can mostly
+autonomously go around and deliver
+
+00:20:37.024 --> 00:20:42.334
+their stuff. So how many of you think that
+these are intelligent or
+
+00:20:42.464 --> 00:20:46.414
+cognitive systems? I think it's cognitive
+but not intelligent.
+
+00:20:47.024 --> 00:20:49.464
+Okay. That that is actually a split.
+
+00:20:49.464 --> 00:20:51.414
+So now now I sort of started with
+
+00:20:52.144 --> 00:20:56.194
+intelligence and cognitive mixing them up
+so that that's an entirely proper
+
+00:20:56.464 --> 00:20:57.464
+perspective.
+
+00:20:58.104 --> 00:21:03.454
+Okay, but quite a few say that this is a
+cognitive system anymore.
+
+00:21:09.104 --> 00:21:12.373
+Okay, how about bacteria? Are bacteria
+
+00:21:14.144 --> 00:21:15.983
+intelligent or cognitive systems?
+
+00:21:15.983 --> 00:21:21.333
+Do they have sort of significant information
+processing going on in them, which
+
+00:21:21.624 --> 00:21:23.693
+which they use to conduct their business?
+
+00:21:25.344 --> 00:21:28.294
+Okay, so we have a few tentative hands.
+
+00:21:30.744 --> 00:21:35.794
+Okay, well, let's say, let's see if I can
+actually give you an answer
+
+00:21:36.304 --> 00:21:40.373
+or a perspective to this question, which
+may make it a bit easier.
+
+00:21:40.824 --> 00:21:41.824
+Uh,
+
+00:21:44.144 --> 00:21:46.784
+but before that, oh, I forgot this
+example.
+
+00:21:46.784 --> 00:21:49.854
+So how many of you think that thermostats
+are
+
+00:21:50.824 --> 00:21:55.704
+cognitive or intelligent and sort of just
+these mechanical thermostats that
+
+00:21:55.704 --> 00:22:00.493
+work, uh, I think many work based on how
+metals expand with
+
+00:22:00.824 --> 00:22:05.974
+temperature, uh, but then, then they still
+manage to keep the rooms
+
+00:22:06.104 --> 00:22:08.174
+roughly in a comfortable temperature.
+
+00:22:08.304 --> 00:22:13.424
+So how many of you think that, uh,
+thermostats are intelligence and
+
+00:22:13.424 --> 00:22:14.693
+cognitive systems?
+
+00:22:15.584 --> 00:22:16.814
+Okay, we have a,
+
+00:22:17.664 --> 00:22:23.184
+we have some, some who may, well, I don't
+spoil how I think yet, but we will
+
+00:22:23.184 --> 00:22:24.374
+see later.
+
+00:22:26.064 --> 00:22:31.053
+Okay, so we have been asking about if
+some, whether some
+
+00:22:31.104 --> 00:22:36.133
+entities as such are cognitive or
+intelligent.
+
+00:22:37.504 --> 00:22:42.454
+I think this is a bit of a hard question
+and not necessarily that fruitful a
+
+00:22:42.464 --> 00:22:43.464
+question.
+
+00:22:44.464 --> 00:22:49.064
+In reality, we are not interested about
+the entities themselves usually, at
+
+00:22:49.064 --> 00:22:50.064
+least in
+
+00:22:50.504 --> 00:22:51.613
+cognitive science.
+
+00:22:53.664 --> 00:22:55.334
+So, so I think
+
+00:22:55.984 --> 00:22:56.984
+an
+
+00:22:58.184 --> 00:23:00.854
+more useful, at least, question is
+
+00:23:03.184 --> 00:23:05.814
+sort of a definition of what is an entity,
+
+00:23:06.864 --> 00:23:11.784
+cognitive entity is one that exhibits some
+intelligent
+
+00:23:11.784 --> 00:23:12.784
+behavior.
+
+00:23:15.504 --> 00:23:20.544
+So we move from the entity as such into
+studying what kind of
+
+00:23:20.544 --> 00:23:24.013
+behavior it exhibits in its environment.
+
+00:23:25.584 --> 00:23:30.984
+Okay, I started with, uh, intelligence
+being now your gut feeling, and this
+
+00:23:30.984 --> 00:23:31.984
+may
+
+00:23:32.104 --> 00:23:35.773
+sound sort of circular because I have said
+that, okay, cognitive is
+
+00:23:36.464 --> 00:23:37.464
+intelligent,
+
+00:23:38.623 --> 00:23:43.784
+so it wants to exhibit cognitive behavior,
+which also almost starts to sound
+
+00:23:43.784 --> 00:23:49.013
+like tautology, but maybe the important
+point here is the behavior
+
+00:23:49.344 --> 00:23:52.534
+versus the entity that exhibits the
+behavior.
+
+00:23:54.064 --> 00:23:57.713
+But we will go further into defining what
+we mean
+
+00:23:58.584 --> 00:24:01.173
+intelligent behavior, uh,
+
+00:24:01.904 --> 00:24:06.064
+in this sense, in well, well maybe in
+cognitive science in general, uh, this
+
+00:24:06.064 --> 00:24:10.853
+this could be one good working definition
+for many, uh, perspectives.
+
+00:24:16.024 --> 00:24:21.373
+Okay, so now now the question is, what is
+intelligent behavior?
+
+00:24:21.424 --> 00:24:26.214
+We defined or had had this working
+definition or my question, uh,
+
+00:24:26.784 --> 00:24:31.593
+or proposal that entities that exhibit
+intelligent behavior are
+
+00:24:31.944 --> 00:24:33.854
+cognitive entities.
+
+00:24:38.024 --> 00:24:43.144
+There is this one definition by, uh,
+actually Otto Lappi.
+
+00:24:43.144 --> 00:24:47.573
+I don't know if it's his original, I think
+it may be, or adapted from somewhere,
+
+00:24:48.344 --> 00:24:52.553
+but we can put certain criteria on what we
+say
+
+00:24:53.224 --> 00:24:55.173
+is intelligent behavior.
+
+00:24:56.104 --> 00:24:57.293
+And more exactly,
+
+00:24:57.904 --> 00:25:01.734
+intelligent behavior is such that it's
+adaptive,
+
+00:25:02.624 --> 00:25:04.253
+it's goal oriented,
+
+00:25:05.064 --> 00:25:07.494
+it's in some sense complex,
+
+00:25:08.144 --> 00:25:13.054
+and it happens in partially predictable
+environments.
+
+00:25:14.864 --> 00:25:19.573
+The idea of these sort of criteria is to
+try to
+
+00:25:20.184 --> 00:25:23.454
+rule out some things that don't seem to be
+
+00:25:24.144 --> 00:25:28.133
+sort of fruitful objects of study of
+cognitive science.
+
+00:25:31.304 --> 00:25:33.473
+So we can start with adaptive,
+
+00:25:34.144 --> 00:25:38.454
+uh, and why would we want to study only
+adaptive systems?
+
+00:25:41.504 --> 00:25:46.813
+So if we think of, so there are these sort
+of purely open loop
+
+00:25:47.264 --> 00:25:49.053
+systems, uh,
+
+00:25:50.184 --> 00:25:54.174
+that get no, no feedback at all from the
+environment.
+
+00:25:54.424 --> 00:25:59.174
+You let them running, and then they just
+run, uh, as they were
+
+00:25:59.744 --> 00:26:01.093
+pre-programmed.
+
+00:26:02.624 --> 00:26:06.733
+Uh, so for example, when you put your
+washing machine off,
+
+00:26:07.664 --> 00:26:13.224
+unless it's very fancy one, it will just
+run, uh, whatever program has been
+
+00:26:13.224 --> 00:26:18.253
+pre pre-programmed in it, and it won't it
+won't adapt in any way,
+
+00:26:18.584 --> 00:26:23.144
+uh, to how clean the stuff is or what
+there is, or if the water spurts out, it
+
+00:26:23.144 --> 00:26:25.934
+just doesn't care, it just run runs the
+whole thing.
+
+00:26:26.264 --> 00:26:28.854
+And usually we don't think of such
+
+00:26:29.464 --> 00:26:32.894
+systems, uh, very intelligent.
+
+00:26:34.904 --> 00:26:39.504
+So it- it does seem to exhibit something
+that we could call behavior, but it
+
+00:26:39.504 --> 00:26:44.414
+doesn't- doesn't seem to be very adaptive,
+and that seems to rule it out,
+
+00:26:44.784 --> 00:26:45.784
+uh,
+
+00:26:46.304 --> 00:26:48.373
+ru- rule it out as, uh,
+
+00:26:49.224 --> 00:26:51.453
+as a cognitive or intelligent system.
+
+00:26:54.864 --> 00:26:59.854
+Okay, then we have the se- second criteria
+of the behavior is that it's somehow
+
+00:26:59.904 --> 00:27:01.454
+goal oriented.
+
+00:27:04.544 --> 00:27:08.213
+So you can think, for example, uh, well, a
+
+00:27:09.624 --> 00:27:12.014
+bad example is, let's say, a rock.
+
+00:27:12.624 --> 00:27:17.174
+So rock can exhibit behavior, it will fall
+if you
+
+00:27:18.344 --> 00:27:20.774
+throw it or push it off a ledge.
+
+00:27:22.024 --> 00:27:26.454
+But it doesn't seem to sort of have any
+goal.
+
+00:27:27.184 --> 00:27:29.784
+It will, we will know what will happen to
+it.
+
+00:27:29.784 --> 00:27:35.264
+It has maybe this telos that it has a
+certain destiny, but it doesn't seem to
+
+00:27:35.264 --> 00:27:39.453
+do really anything in order to fulfill
+that
+
+00:27:40.104 --> 00:27:45.144
+goal. So there is, doesn't seem to be
+anything within the system that, within
+
+00:27:45.144 --> 00:27:50.234
+the rock that sort of wants to or actively
+pursues, uh,
+
+00:27:51.544 --> 00:27:56.424
+to to fall as it does. May maybe if you if
+you start seeing it that, okay, you
+
+00:27:56.424 --> 00:28:00.744
+see a rock that is falling down and then
+it tries to sort of keep up, starts to
+
+00:28:00.744 --> 00:28:04.624
+lev- tries to levitate, then it it could
+start to seem like, okay, maybe there's
+
+00:28:04.624 --> 00:28:05.624
+something,
+
+00:28:06.144 --> 00:28:11.254
+something more. This is a somehow a smarter
+rock than the others that just fall.
+
+00:28:17.664 --> 00:28:18.953
+Okay, then we have
+
+00:28:20.183 --> 00:28:22.693
+the environment. So we,
+
+00:28:24.384 --> 00:28:26.333
+the behavior has to be
+
+00:28:27.544 --> 00:28:32.534
+adaptive and goal oriented in some complex
+and partially
+
+00:28:32.864 --> 00:28:34.614
+predictable environment.
+
+00:28:38.064 --> 00:28:43.174
+So complex here means more more exactly
+something like that the
+
+00:28:43.224 --> 00:28:44.354
+system is,
+
+00:28:46.183 --> 00:28:51.104
+the cognitive system is in a sense simpler
+than its
+
+00:28:51.104 --> 00:28:55.413
+environment. It's not necessarily com-
+Complexity as such, but it it's the
+
+00:28:55.984 --> 00:29:01.424
+balance, the difference between the
+environment and uh and
+
+00:29:01.424 --> 00:29:02.534
+the organism.
+
+00:29:04.544 --> 00:29:09.474
+So let's say we have in in machine
+learning, we have this big problem
+
+00:29:09.944 --> 00:29:15.384
+uh of overfitting. So you can take a huge
+model and insert it some data set into
+
+00:29:15.384 --> 00:29:19.344
+it, and it will just memorize, memorize
+the whole corpus.
+
+00:29:19.344 --> 00:29:21.054
+And if you test it out, it will
+
+00:29:21.704 --> 00:29:27.253
+always give for the training corpus, uh,
+the exact right answers.
+
+00:29:27.744 --> 00:29:33.304
+But actually, you will, in the parameters,
+may have more degrees of freedom, so
+
+00:29:33.304 --> 00:29:34.224
+the
+
+00:29:34.224 --> 00:29:39.653
+model can be more complex than the task
+that is trying,
+
+00:29:39.824 --> 00:29:40.824
+uh,
+
+00:29:41.104 --> 00:29:42.104
+trying to do.
+
+00:29:43.704 --> 00:29:44.704
+So it,
+
+00:29:46.144 --> 00:29:51.773
+so in it, so in in a sense, it doesn't
+have to really make any anything
+
+00:29:51.824 --> 00:29:57.104
+intelligent. This is not... actually, is
+this intelligent behavior or
+
+00:29:57.104 --> 00:29:58.104
+not?
+
+00:29:58.144 --> 00:30:02.424
+I don't know if it's trying to sabotage
+intentionally, uh, or or yeah,
+
+00:30:02.424 --> 00:30:03.734
+goal-oriented behavior.
+
+00:30:05.424 --> 00:30:06.424
+Uh,
+
+00:30:07.424 --> 00:30:11.053
+or it's saying that I have to move on with
+the slides, but uh...
+
+00:30:13.784 --> 00:30:16.053
+But yes, so so if if we have a
+
+00:30:16.984 --> 00:30:21.593
+nice huge neural network, for example, or
+a huge decision tree that just
+
+00:30:22.024 --> 00:30:27.224
+memorizes all the answers, then in the
+task of uh trying to
+
+00:30:27.224 --> 00:30:31.424
+predict that data set, it doesn't seem to
+be very intelligent.
+
+00:30:31.424 --> 00:30:33.394
+It doesn't have to make any sort of
+
+00:30:34.104 --> 00:30:37.734
+choices, in a sense. It can just look up,
+and it's more
+
+00:30:38.984 --> 00:30:41.593
+complex, uh, than the system.
+
+00:30:41.944 --> 00:30:45.904
+And and we will discuss some information
+theory, and in a then we can even
+
+00:30:45.904 --> 00:30:51.384
+quantify how the system is more complex,
+how how the neural network is
+
+00:30:51.384 --> 00:30:53.634
+more complex than, uh,
+
+00:30:54.424 --> 00:30:57.734
+than the data set if you overtrain it bad
+enough.
+
+00:31:03.824 --> 00:31:06.333
+And then the final criterion
+
+00:31:07.024 --> 00:31:11.333
+is that it has to operate in some
+partially predictable
+
+00:31:11.983 --> 00:31:13.013
+environment.
+
+00:31:17.344 --> 00:31:19.734
+Okay, so to understand this,
+
+00:31:20.384 --> 00:31:22.093
+let's think that something,
+
+00:31:23.104 --> 00:31:24.933
+uh, something behaves
+
+00:31:25.744 --> 00:31:28.494
+in a perfectly predictable environment.
+
+00:31:29.544 --> 00:31:30.773
+So the si- system
+
+00:31:31.424 --> 00:31:32.424
+can
+
+00:31:33.104 --> 00:31:37.354
+predict all consequences of its actions,
+uh,
+
+00:31:37.983 --> 00:31:43.544
+at each time, for example, it and and it
+will know exactly what will come in the
+
+00:31:43.544 --> 00:31:44.544
+future.
+
+00:31:44.864 --> 00:31:47.653
+So it's totally fully predictable.
+
+00:31:51.104 --> 00:31:52.114
+So in in in
+
+00:31:53.464 --> 00:31:55.534
+in that case, well, usually it's also
+
+00:31:56.704 --> 00:32:01.734
+probably more complex, but then we
+actually start to look something like a,
+
+00:32:02.464 --> 00:32:06.813
+like, let's say a rock. So we start to
+look at the systems that are
+
+00:32:07.464 --> 00:32:13.024
+deterministic and are governed just by
+some rules that don't seem to have
+
+00:32:13.024 --> 00:32:17.953
+to somehow pre- process the information,
+uh, somehow
+
+00:32:18.184 --> 00:32:23.534
+intelligently, and they would also
+probably behave sort of perfectly, uh,
+
+00:32:23.784 --> 00:32:28.984
+and, and well, I would say that you could
+think that the universe is intelligent
+
+00:32:28.984 --> 00:32:31.774
+or something. This is not this, this is
+more for
+
+00:32:32.984 --> 00:32:36.984
+to limit what are the phenomena of interest
+for cognitive science and cognitive
+
+00:32:36.984 --> 00:32:41.854
+modeling, is that we are not studying
+those kinds of behaviors that can be
+
+00:32:41.864 --> 00:32:47.454
+stated out, uh, di- directly as this, uh,
+sort of physical,
+
+00:32:47.944 --> 00:32:50.533
+uh, physical perfect system.
+
+00:32:51.424 --> 00:32:55.984
+And of course, this probably one thing is
+that that you don't have this in
+
+00:32:55.984 --> 00:32:59.454
+reality. Well, you have in in some, let's
+say, uh,
+
+00:33:00.744 --> 00:33:06.133
+let's say com- computer tasking, so if you
+model how how to play some games like
+
+00:33:06.144 --> 00:33:08.693
+chess, for example. Well, not chess, but
+
+00:33:09.623 --> 00:33:11.623
+s- s- some- something that is...
+
+00:33:11.623 --> 00:33:16.024
+So in chess you still have the other party
+that you cannot predict, and maybe
+
+00:33:16.024 --> 00:33:17.934
+even yourself that you cannot predict.
+
+00:33:18.424 --> 00:33:19.424
+Uh,
+
+00:33:19.704 --> 00:33:23.864
+but let- let's say that you pay- play
+tic-tac-toe with yourself.
+
+00:33:23.864 --> 00:33:25.533
+It doesn't seem, uh...
+
+00:33:26.984 --> 00:33:30.784
+Then- then you could, if you could predict
+yourself, then you could fully
+
+00:33:30.784 --> 00:33:35.264
+predict, uh, the game of tic tac toe, and
+maybe it wouldn't be interesting to
+
+00:33:35.264 --> 00:33:36.933
+study as a cognitive system.
+
+00:33:44.304 --> 00:33:48.453
+Okay, maybe so I have been hinting at
+this, so we got went from,
+
+00:33:51.064 --> 00:33:52.064
+describing,
+
+00:33:53.904 --> 00:33:59.424
+Entities as cognitive or intelligent to
+describing some kinds of
+
+00:33:59.424 --> 00:34:02.833
+behaviors in some environments, uh,
+
+00:34:03.784 --> 00:34:05.774
+cognitive or intelligent.
+
+00:34:06.424 --> 00:34:11.784
+But that ac- and actually one quite pretty
+smart guy, uh, made a point about
+
+00:34:11.784 --> 00:34:12.913
+this already in
+
+00:34:14.664 --> 00:34:19.814
+1984. So how many of you are familiar with
+the guy in the picture?
+
+00:34:22.184 --> 00:34:26.824
+Okay, great. If you are not, read up on
+him and his papers as well.
+
+00:34:26.824 --> 00:34:28.813
+So this is from a paper,
+
+00:34:29.704 --> 00:34:33.054
+Intelligent Machinery from 1948.
+
+00:34:33.984 --> 00:34:36.933
+And apart from this, it's sort of in
+
+00:34:37.744 --> 00:34:43.174
+1948, when there practically was no
+computers yet, it laid out
+
+00:34:43.704 --> 00:34:46.104
+sort of basis of machine learning.
+
+00:34:46.104 --> 00:34:50.264
+It made separations between learning
+systems and programmed systems, and it
+
+00:34:50.264 --> 00:34:51.293
+even, uh,
+
+00:34:51.944 --> 00:34:54.413
+ta- discussed about reinforcement
+learning.
+
+00:34:54.904 --> 00:34:56.934
+Uh, of course, not on those terms.
+
+00:34:57.064 --> 00:35:00.944
+Sort of reinforcement learning came, uh,
+almost a hundred years later.
+
+00:35:00.944 --> 00:35:01.974
+Well, not hundred, but
+
+00:35:02.864 --> 00:35:06.813
+maybe 60 or 80 years later in its current
+formulation.
+
+00:35:09.464 --> 00:35:13.114
+Well, no, 100 years, we don't even have,
+oh yeah, okay, but but let
+
+00:35:13.704 --> 00:35:19.304
+reinforcement learning came from, let's
+say, 90s or 80s in in its
+
+00:35:19.304 --> 00:35:20.304
+current form.
+
+00:35:21.184 --> 00:35:22.184
+Okay.
+
+00:35:22.864 --> 00:35:28.493
+But in this paper, in the very last
+section, second to last paragraph,
+
+00:35:29.264 --> 00:35:34.053
+uh, and section is titled Intelligence as
+an
+
+00:35:34.144 --> 00:35:36.213
+Emotional Concept.
+
+00:35:37.144 --> 00:35:42.544
+And Turing writes, the extent to which we
+regard something as behaving in an
+
+00:35:42.544 --> 00:35:48.013
+intelligent manner is determined as much
+by our own state of mind and
+
+00:35:48.064 --> 00:35:52.833
+training as by the properties of the
+object under
+
+00:35:52.864 --> 00:35:53.974
+consideration.
+
+00:35:55.144 --> 00:35:59.834
+So Turing was kind of of the opinion that
+intelligence
+
+00:36:00.864 --> 00:36:03.413
+is not a property of the object,
+
+00:36:04.464 --> 00:36:05.573
+property of something,
+
+00:36:06.304 --> 00:36:09.494
+but it's not even property of some
+behavior,
+
+00:36:10.184 --> 00:36:13.184
+but it is more kind of a perspective.
+
+00:36:13.184 --> 00:36:14.274
+Well, you could say that it's
+
+00:36:15.304 --> 00:36:20.304
+opinion. Sometimes it's sort of this
+emotionally, quite emotionally based
+
+00:36:20.304 --> 00:36:23.014
+opinion, as Turing hints at the title.
+
+00:36:23.824 --> 00:36:28.784
+And intelligence has sort of moral things
+and every- every- all sorts of things
+
+00:36:28.784 --> 00:36:30.453
+tied into it, so in...
+
+00:36:31.544 --> 00:36:34.894
+and these get mixed up in many, uh...
+
+00:36:37.064 --> 00:36:42.133
+uh, in many discussions. Sorry, I have to,
+I'm gonna run out of battery, so
+
+00:36:42.864 --> 00:36:44.013
+I have to mumble.
+
+00:36:49.983 --> 00:36:53.933
+Okay, let's have a break of until I get
+this plugged in.
+
+00:37:18.104 --> 00:37:19.104
+Fuck.
+
+00:37:19.184 --> 00:37:20.413
+Huh? No.
+
+00:37:39.024 --> 00:37:40.584
+I mean, the main, main,
+
+00:37:40.584 --> 00:38:03.504
+main.
+
+00:38:03.504 --> 00:38:04.594
+That's cool.
+
+00:38:05.864 --> 00:38:07.413
+How professional.
+
+00:38:08.624 --> 00:38:10.094
+They, they look so good.
+
+00:38:14.584 --> 00:38:16.073
+Yeah, that's nice.
+
+00:38:16.224 --> 00:38:25.024
+Yeah,
+
+00:38:25.024 --> 00:38:26.814
+I can give you the slides.
+
+00:38:27.504 --> 00:38:32.534
+No, no. Yes, yes, yes. I think that's a
+good idea.
+
+00:38:32.544 --> 00:38:37.504
+Doesn't seem right. Yeah, that's a good,
+that's the idea.
+
+00:38:37.504 --> 00:38:39.214
+But the shape is a bit weird.
+
+00:38:39.944 --> 00:38:41.183
+Yeah, I didn't know the shape.
+
+00:38:41.183 --> 00:38:44.504
+I just asked for... I also thought Is that
+the cerebellum?
+
+00:38:44.504 --> 00:38:47.654
+Like, why is it like that? Oh, man.
+
+00:38:48.384 --> 00:38:53.493
+Let, let this. This is a bit diseasey,
+right?
+
+00:39:17.624 --> 00:39:20.773
+No, I don't like it shiny. Our rings are
+not shiny.
+
+00:39:22.664 --> 00:39:23.664
+Yeah.
+
+00:39:24.664 --> 00:39:25.664
+It's matte.
+
+00:39:27.944 --> 00:39:28.944
+Have you seen that?
+
+00:39:29.984 --> 00:39:31.784
+No, I have. I, I hold,
+
+00:39:31.784 --> 00:39:48.494
+held.
+
+00:39:59.584 --> 00:40:02.813
+Okay, let's continue. I think some people
+left
+
+00:40:03.464 --> 00:40:07.374
+for a break, but you can fill them in when
+they come back.
+
+00:40:08.584 --> 00:40:14.144
+Okay, so we got left off with this quote
+and discussing that intelligence often
+
+00:40:14.144 --> 00:40:15.144
+in
+
+00:40:15.184 --> 00:40:16.774
+everyday, uh,
+
+00:40:17.584 --> 00:40:22.714
+everyday use of the word and also in some
+philosophical use of the words,
+
+00:40:22.864 --> 00:40:27.773
+sadly I say, uh, is tied up with all sorts
+of other things,
+
+00:40:28.264 --> 00:40:32.013
+like how you value something or, or, uh,
+
+00:40:33.704 --> 00:40:37.013
+or, or what is the sort of moral status of
+something.
+
+00:40:37.224 --> 00:40:39.893
+But we will skip all of that here,
+
+00:40:40.784 --> 00:40:41.784
+uh,
+
+00:40:42.224 --> 00:40:43.224
+and
+
+00:40:43.664 --> 00:40:46.093
+but pay in mind to this
+
+00:40:46.864 --> 00:40:49.813
+Turing's insight, uh, that the
+
+00:40:51.784 --> 00:40:54.073
+what is intelligent is
+
+00:40:54.784 --> 00:40:55.784
+a
+
+00:40:55.824 --> 00:41:01.304
+joint joint property of the one who
+assesses the intelligence and the
+
+00:41:01.304 --> 00:41:02.454
+system itself.
+
+00:41:04.304 --> 00:41:06.733
+And I would rather actually say that,
+
+00:41:08.983 --> 00:41:14.133
+uh, analyzing or thinking that something
+is a cognitive system
+
+00:41:15.104 --> 00:41:19.773
+is more a perspective that you take into a
+system.
+
+00:41:20.184 --> 00:41:25.704
+And that perspective is that it exhibits
+behavior that can be useful to try
+
+00:41:25.704 --> 00:41:30.774
+to explain or predict with some kind of,
+uh, information processing.
+
+00:41:31.464 --> 00:41:36.994
+So that is what I say is cognitive, is a
+perspective to certain
+
+00:41:37.024 --> 00:41:39.174
+systems. And you can then study,
+
+00:41:39.824 --> 00:41:43.334
+you don't have to sort of think that,
+okay, is this intelligent or not?
+
+00:41:43.504 --> 00:41:48.133
+You can try, okay, if I try to explain how
+this works with some sort of
+
+00:41:48.144 --> 00:41:50.344
+algorithm, for example, does it work?
+
+00:41:50.344 --> 00:41:53.744
+If it works, then you have a good
+perspective on it.
+
+00:41:53.744 --> 00:41:55.174
+If it doesn't, then
+
+00:41:56.064 --> 00:41:59.413
+you probably don't want to use the
+cognitive approach.
+
+00:42:06.044 --> 00:42:07.233
+Okay, we will move
+
+00:42:08.264 --> 00:42:13.213
+to the second part of the big question of
+the lecture,
+
+00:42:13.744 --> 00:42:19.304
+what is modeling? But maybe before that,
+are there any questions about, uh, this
+
+00:42:19.304 --> 00:42:22.574
+first part, what is cognitive, or
+comments?
+
+00:42:26.864 --> 00:42:27.864
+Okay, good.
+
+00:42:28.424 --> 00:42:30.153
+Uh, so then we can move
+
+00:42:31.304 --> 00:42:32.414
+to the question,
+
+00:42:33.384 --> 00:42:38.904
+what is modeling? And here I will discuss
+modeling in general.
+
+00:42:38.904 --> 00:42:42.733
+So you do, there are a lot of modeling
+that are not cognitive modeling.
+
+00:42:43.584 --> 00:42:44.584
+uh,
+
+00:42:44.864 --> 00:42:50.304
+so what do, what do we do, or what do we
+mean when we model something, and
+
+00:42:50.304 --> 00:42:52.424
+maybe especially what do we mean in
+discourse?
+
+00:42:52.424 --> 00:42:55.654
+It may mean different things in different
+contexts.
+
+00:42:58.704 --> 00:43:00.813
+Okay, but now we will see,
+
+00:43:01.864 --> 00:43:02.464
+uh,
+
+00:43:02.464 --> 00:43:13.493
+Pyllervö,
+
+00:43:16.064 --> 00:43:18.714
+but famously we know that
+
+00:43:20.464 --> 00:43:21.974
+it is not the cat.
+
+00:43:22.664 --> 00:43:25.254
+So this is a picture of the cat.
+
+00:43:26.144 --> 00:43:29.493
+It's a re- it's some sort of
+representation of the cat.
+
+00:43:31.224 --> 00:43:32.224
+And what,
+
+00:43:32.464 --> 00:43:37.294
+what, what does it, how does it differ, at
+least for, I think the artist may
+
+00:43:37.464 --> 00:43:41.413
+have some more philosophical or artistic
+point, but to me,
+
+00:43:44.183 --> 00:43:45.183
+it's sort of,
+
+00:43:46.024 --> 00:43:51.344
+the question is, what can we do with the
+real cat that we
+
+00:43:51.344 --> 00:43:54.894
+cannot do with the picture? of the cat.
+
+00:43:57.504 --> 00:44:02.254
+So obviously the picture of the cat
+somehow relates to the cat
+
+00:44:02.424 --> 00:44:07.784
+itself. So it was sort of the part of the
+causal chain on how I managed to
+
+00:44:07.784 --> 00:44:13.064
+take this picture, but also it captures
+some properties of the cat that we can
+
+00:44:13.064 --> 00:44:17.864
+then analyze here, so I don't have to
+bring the cat here, uh, to see those
+
+00:44:17.864 --> 00:44:21.213
+properties. So for example, we see that it
+seems to be
+
+00:44:21.864 --> 00:44:22.864
+exhibit
+
+00:44:23.784 --> 00:44:29.304
+white-ish or black-ish color, at least in
+the lighting environment
+
+00:44:29.304 --> 00:44:30.454
+it was, uh,
+
+00:44:31.064 --> 00:44:32.374
+it was filmed in.
+
+00:44:33.064 --> 00:44:34.073
+It seems to have
+
+00:44:34.744 --> 00:44:40.104
+two eyes and a nose and ears and a tail,
+and it seems here to
+
+00:44:40.104 --> 00:44:41.573
+have three legs,
+
+00:44:42.904 --> 00:44:45.894
+but ac- actually the cat has all four
+legs.
+
+00:44:46.664 --> 00:44:51.144
+But I don't know if it's hidden behind
+there, but some cats do this weird stance
+
+00:44:51.144 --> 00:44:52.454
+where they hide their leg.
+
+00:44:53.264 --> 00:44:57.224
+Okay, and then there was actually an
+example where we could have sort of a
+
+00:44:57.224 --> 00:44:58.754
+mismatch of
+
+00:44:59.424 --> 00:45:03.613
+properties of the representation, uh, and
+the cat.
+
+00:45:04.304 --> 00:45:06.693
+So here we cannot see,
+
+00:45:07.424 --> 00:45:08.424
+uh,
+
+00:45:08.544 --> 00:45:11.853
+see see the hind leg, one hind leg of a
+cat.
+
+00:45:12.024 --> 00:45:15.534
+So we cannot say with this representation
+whether
+
+00:45:16.704 --> 00:45:19.653
+the cat has four, three or four legs.
+
+00:45:21.024 --> 00:45:26.544
+Actually, we sometimes have also a, uh,
+four-legged, a three-legged cat who
+
+00:45:26.544 --> 00:45:31.913
+has one leg cut amputated, uh, and taking
+a f-
+
+00:45:32.464 --> 00:45:36.544
+if you take from a similar angle, you
+couldn't really say whether it has the leg
+
+00:45:36.544 --> 00:45:37.773
+amputated or not.
+
+00:45:39.584 --> 00:45:43.334
+So this representation does not share, or
+at least does not
+
+00:45:44.224 --> 00:45:46.573
+inform us about this property
+
+00:45:47.304 --> 00:45:48.313
+of the cat,
+
+00:45:49.064 --> 00:45:50.914
+the number of legs of the cat.
+
+00:45:57.184 --> 00:45:59.134
+Okay, so but in principle, so
+
+00:46:00.464 --> 00:46:01.424
+we
+
+00:46:01.424 --> 00:46:05.784
+are missing a lot of stuff from a cat with
+which we could study from the with
+
+00:46:05.784 --> 00:46:07.294
+the cat proper.
+
+00:46:08.224 --> 00:46:11.104
+But a cat has literally countless of
+properties.
+
+00:46:11.104 --> 00:46:15.544
+You could invent properties that you can
+ascribe to a cat that it has or does
+
+00:46:15.544 --> 00:46:16.544
+not have.
+
+00:46:17.224 --> 00:46:20.814
+So that's not very useful, for example,
+understanding it.
+
+00:46:22.544 --> 00:46:23.933
+So instead
+
+00:46:24.704 --> 00:46:25.704
+we want to
+
+00:46:26.464 --> 00:46:27.713
+pick out some
+
+00:46:28.384 --> 00:46:31.093
+properties for some purpose,
+
+00:46:31.704 --> 00:46:34.774
+uh, to understand or predict
+
+00:46:35.384 --> 00:46:40.824
+the behavior of a cat or how the cat would
+relate to another phenomena, but only
+
+00:46:40.824 --> 00:46:46.293
+in this very strict sense that you take
+these properties and then it they it
+
+00:46:46.983 --> 00:46:52.304
+your selection of properties has limits of
+what it can say about the
+
+00:46:52.304 --> 00:46:57.434
+cat. But in general, we want to, if you we
+have some question,
+
+00:46:57.664 --> 00:47:02.674
+uh, under study, we try to find some
+properties,
+
+00:47:03.424 --> 00:47:08.713
+uh, we can use to, uh, use them well once
+we have we have to be able to
+
+00:47:08.744 --> 00:47:10.093
+robustly extract them,
+
+00:47:10.784 --> 00:47:12.193
+uh, and then we will
+
+00:47:12.864 --> 00:47:16.053
+be have to able to use them somehow.
+
+00:47:16.784 --> 00:47:17.784
+Uh
+
+00:47:18.424 --> 00:47:20.433
+So for example, if if there is a
+
+00:47:22.384 --> 00:47:27.144
+uh special treatment for only three-legged
+cats, then then we will have to would
+
+00:47:27.144 --> 00:47:28.213
+have to uh
+
+00:47:28.824 --> 00:47:32.133
+figure out that property of how many legs
+it has.
+
+00:47:34.184 --> 00:47:39.104
+And here maybe understand is a very
+wishy-washy word, and maybe I shouldn't have
+
+00:47:39.104 --> 00:47:42.354
+used that, but in here sort of the use and
+understand
+
+00:47:43.064 --> 00:47:44.064
+are
+
+00:47:44.184 --> 00:47:47.273
+maybe used jointly, meaning
+
+00:47:48.744 --> 00:47:52.774
+that we can, we have other properties, uh,
+
+00:47:53.424 --> 00:47:57.294
+that we can then, so we have knowledge of
+how these properties work.
+
+00:47:57.624 --> 00:48:02.973
+For example, if we take the mass of the
+cat, then we will know quite a bit
+
+00:48:03.224 --> 00:48:08.394
+about the cat with just that, uh, one
+property, because then we can relate it to
+
+00:48:08.424 --> 00:48:11.813
+gravity, for example, or inertia and stuff
+like that.
+
+00:48:12.183 --> 00:48:16.493
+So in that sense, we can understand the
+cat within, uh,
+
+00:48:18.064 --> 00:48:23.304
+within the context of gravity by just
+picking out that one property of the
+
+00:48:23.304 --> 00:48:24.304
+cat.
+
+00:48:29.224 --> 00:48:31.784
+Okay, but let's take another modeling
+thing.
+
+00:48:31.784 --> 00:48:35.794
+So I said that now, now we have only a
+picture of the cat,
+
+00:48:36.464 --> 00:48:37.993
+and we cannot see whether,
+
+00:48:38.623 --> 00:48:41.534
+whether she has a three or four legs.
+
+00:48:42.144 --> 00:48:47.224
+But we could have a useful representation
+that could solve this problem, is that
+
+00:48:47.224 --> 00:48:48.854
+if we, for example,
+
+00:48:49.664 --> 00:48:53.054
+make a 3D model of the cat.
+
+00:48:54.344 --> 00:48:59.193
+And now with this 3D model, uh, we can, so
+so it could have this
+
+00:48:59.384 --> 00:49:02.054
+perspective where, so so if we'd
+
+00:49:03.024 --> 00:49:08.433
+had taken the photo from this perspective,
+then we couldn't see it, but because,
+
+00:49:08.744 --> 00:49:09.744
+uh,
+
+00:49:10.304 --> 00:49:15.704
+the model has these geometric
+three-dimensional properties that allow us to
+
+00:49:15.704 --> 00:49:20.513
+do this rotation, it's in a sense a better
+model
+
+00:49:20.904 --> 00:49:21.904
+for,
+
+00:49:22.304 --> 00:49:26.753
+uh, for this purpose, for example, finding
+how many, finding out how many legs
+
+00:49:26.984 --> 00:49:32.474
+the cat has. We reduce some properties,
+for example, it's less realistic,
+
+00:49:32.704 --> 00:49:33.704
+uh,
+
+00:49:33.744 --> 00:49:37.974
+than the cat. It's not even that accurate
+a model of a cat.
+
+00:49:38.304 --> 00:49:41.244
+Uh, also, also it's clearly sort of
+rendered.
+
+00:49:41.244 --> 00:49:46.494
+It loses some properties of how light, uh,
+interacts with its fur,
+
+00:49:47.344 --> 00:49:51.904
+for, for example, although we try to
+capture some of these properties with the
+
+00:49:51.904 --> 00:49:52.933
+simulated fur.
+
+00:49:54.224 --> 00:49:59.584
+But now we have a different representation
+of the cat, which could also be then
+
+00:49:59.584 --> 00:50:03.493
+used as a model to study properties of the
+cat.
+
+00:50:10.704 --> 00:50:16.114
+Okay, so what else then we could make u-
+use, uh, what
+
+00:50:16.144 --> 00:50:18.694
+other uses there could be for this,
+
+00:50:19.344 --> 00:50:21.273
+for this 3D model of the cat?
+
+00:50:23.344 --> 00:50:28.653
+Let's say we want to make a bronze statue
+of the cat, because why not?
+
+00:50:29.224 --> 00:50:30.824
+So then we have to get the bronze.
+
+00:50:30.824 --> 00:50:35.133
+It's a quite expensive, maybe, I don't
+know how much bronze costs, uh,
+
+00:50:36.104 --> 00:50:37.853
+but then we to make,
+
+00:50:39.504 --> 00:50:45.064
+uh, to make the bronze statue, we have to
+at least, we have to order at least
+
+00:50:45.064 --> 00:50:50.033
+a volume of bronze that could, we could
+use to,
+
+00:50:50.944 --> 00:50:53.614
+I don't know how you sculpt, sculpt a
+
+00:50:54.224 --> 00:50:57.174
+bronze staff, maybe you put it in some
+mold or something, I don't know.
+
+00:50:57.744 --> 00:51:00.334
+But anyway, you need to, you would need to
+know
+
+00:51:01.144 --> 00:51:02.813
+the volume of the cat.
+
+00:51:03.584 --> 00:51:08.813
+So, of course, as Archimedes already
+figured out, we could just put
+
+00:51:09.104 --> 00:51:14.014
+the cat in a bathtub, but there's just
+sort of things that you cannot do in
+
+00:51:14.024 --> 00:51:17.614
+practice because the Pyllervö would, uh,
+
+00:51:18.784 --> 00:51:23.174
+would get extremely angry and you'd
+probably end up with wounds or something.
+
+00:51:23.304 --> 00:51:28.244
+So we could have a more sort of ethical or
+more practical ways and which we sort
+
+00:51:28.244 --> 00:51:32.614
+of do when we have this 3D model of the
+cat.
+
+00:51:34.624 --> 00:51:39.944
+So from, from, because we have this
+enclosed mesh of the cat, uh, we
+
+00:51:39.944 --> 00:51:40.944
+can,
+
+00:51:41.624 --> 00:51:44.264
+we can study just, we can know its volume.
+
+00:51:44.264 --> 00:51:49.704
+Well, one particularly difficult way of
+figuring out the volume of the cat is
+
+00:51:49.704 --> 00:51:55.144
+to sort of just mold it into a ball,
+assuming that it's, uh, it doesn't
+
+00:51:55.144 --> 00:51:56.373
+compress or anything.
+
+00:51:57.464 --> 00:52:01.744
+And then you can measure one property, you
+can measure the radius, or probably
+
+00:52:01.744 --> 00:52:04.653
+you measure di- diameter and divide it by
+2.
+
+00:52:05.864 --> 00:52:11.424
+And then f- that we can connect, uh, to
+our previous knowledge of
+
+00:52:11.424 --> 00:52:16.373
+how geometry works, and from the radius
+compute the volume.
+
+00:52:17.184 --> 00:52:22.754
+And at least per this model, uh, we would
+need about 3.4 liters,
+
+00:52:23.024 --> 00:52:27.574
+uh, of bronze to make the statue of the
+cat.
+
+00:52:27.884 --> 00:52:30.864
+I would, I would maybe get a bit extra
+here.
+
+00:52:30.864 --> 00:52:35.574
+I'm not very sure about the model's, uh,
+geometric fidelity in the,
+
+00:52:36.584 --> 00:52:37.584
+uh,
+
+00:52:50.624 --> 00:52:55.264
+with that we could o- uh, order the
+bronze, but let's say for some reason we
+
+00:52:55.264 --> 00:52:57.253
+need to ship 27
+
+00:52:58.304 --> 00:53:00.133
+cats like Pyllervö.
+
+00:53:00.904 --> 00:53:06.024
+And then we need to figure out how big a
+box we can, but of course with these
+
+00:53:06.024 --> 00:53:11.504
+hard economic times we have to be very
+efficient and also order only the minimal
+
+00:53:11.504 --> 00:53:16.633
+box that will just squeeze, uh, the cats
+with the 27 cats
+
+00:53:17.024 --> 00:53:18.024
+within it.
+
+00:53:22.504 --> 00:53:27.744
+Okay, so we could, now we have this nice
+model and from which we have the
+
+00:53:27.744 --> 00:53:30.773
+volume, so we can actually then
+
+00:53:32.384 --> 00:53:34.154
+from the volume alone
+
+00:53:35.864 --> 00:53:39.613
+with some more geometry, to figure out
+
+00:53:40.224 --> 00:53:43.193
+that the cat would make a cube
+
+00:53:44.064 --> 00:53:47.213
+of around 15 centimeter per side.
+
+00:53:48.623 --> 00:53:51.094
+And then we also know that
+
+00:53:51.824 --> 00:53:53.194
+cubes or
+
+00:53:54.064 --> 00:53:59.213
+Rectangulars of si- same proportions make
+optimal packing.
+
+00:53:59.344 --> 00:54:00.344
+So if we
+
+00:54:01.024 --> 00:54:02.024
+form
+
+00:54:02.184 --> 00:54:07.474
+the cube, if if we somehow manage to
+squash, uh, the kittens
+
+00:54:07.824 --> 00:54:09.133
+into cubes,
+
+00:54:09.984 --> 00:54:14.693
+uh, I think there was some bad meme about
+doing this with kitten back in the
+
+00:54:15.224 --> 00:54:18.944
+early 2000s, but but no cats were harmed
+here.
+
+00:54:18.944 --> 00:54:20.344
+I didn't try this on the cat.
+
+00:54:20.344 --> 00:54:24.304
+That's a benefit of the, uh, of having the
+model of the cat, so I don't have to
+
+00:54:24.304 --> 00:54:26.384
+put it in a rectangular jar.
+
+00:54:26.384 --> 00:54:28.293
+I think that was the meme.
+
+00:54:30.264 --> 00:54:31.264
+So we can
+
+00:54:32.144 --> 00:54:33.974
+connect our knowledge that
+
+00:54:34.984 --> 00:54:39.824
+cubes produce optimal packing, and also we
+know from the real world that that
+
+00:54:39.824 --> 00:54:44.223
+cats pack quite well. They're quite
+nimble, and probably they will almost
+
+00:54:44.223 --> 00:54:45.673
+optimally pack if you really
+
+00:54:46.344 --> 00:54:47.894
+squeeze them into the box.
+
+00:54:49.584 --> 00:54:55.013
+And now from these properties and with
+this, uh, background knowledge, then we
+
+00:54:55.024 --> 00:54:56.024
+know,
+
+00:54:56.184 --> 00:55:01.733
+uh, that if we stack them up 3, 3 by 3 by
+3, then
+
+00:55:01.904 --> 00:55:07.234
+the cats will fit, fit snugly and
+efficiently in a box of
+
+00:55:07.744 --> 00:55:11.494
+about 45 centimeters per side.
+
+00:55:14.303 --> 00:55:18.704
+I don't know if the cats would like it,
+but with these hard times we all have to
+
+00:55:18.704 --> 00:55:24.214
+make painful decisions, uh, so we would,
+we may have to squeeze the cats in,
+
+00:55:24.264 --> 00:55:25.264
+in the
+
+00:55:25.864 --> 00:55:27.313
+exact minimum, uh,
+
+00:55:28.184 --> 00:55:31.013
+box that they will fit in. We will do more
+with less.
+
+00:55:35.383 --> 00:55:40.653
+Okay, so that covers the modeling part
+with, with sort of the cat
+
+00:55:40.663 --> 00:55:41.663
+example.
+
+00:55:42.144 --> 00:55:43.144
+uh,
+
+00:55:43.504 --> 00:55:46.153
+you could maybe say something more about
+the modeling, but
+
+00:55:46.864 --> 00:55:49.134
+modeling as a concept itself, but the
+
+00:55:49.824 --> 00:55:54.714
+critical thing here to understand that
+when we model, we want to get some useful
+
+00:55:54.784 --> 00:56:00.194
+purpose and useful properties for some
+purpose which we can
+
+00:56:00.224 --> 00:56:04.014
+use and understand based on other
+knowledge that we have.
+
+00:56:05.584 --> 00:56:07.214
+And here the important point,
+
+00:56:08.544 --> 00:56:11.693
+deeper important point is that when we
+study
+
+00:56:12.464 --> 00:56:13.464
+a model
+
+00:56:13.983 --> 00:56:18.224
+of a system, or we study system with the
+model, we don't study the whole system,
+
+00:56:18.224 --> 00:56:23.453
+we study some assumption, assu- assumed
+similarity between
+
+00:56:23.664 --> 00:56:27.434
+the model, uh, and and the system under
+study.
+
+00:56:27.584 --> 00:56:29.574
+And you should be very careful about
+
+00:56:30.224 --> 00:56:32.874
+whether they actually, whether the
+properties actually
+
+00:56:34.944 --> 00:56:39.973
+are correctly extracted and the system
+works the same way as you
+
+00:56:40.344 --> 00:56:43.473
+model it. This is actually something
+that's often not
+
+00:56:44.344 --> 00:56:49.824
+that well appreciated, sadly, in this
+scene, that you just fi- come up with some
+
+00:56:49.824 --> 00:56:55.133
+models of how it could behave, and that
+becomes the model of hu- of how hu-
+
+00:56:55.144 --> 00:56:58.373
+humans, for example, do some stuff, but
+they may be
+
+00:56:59.584 --> 00:57:00.584
+totally wrong.
+
+00:57:01.344 --> 00:57:05.273
+For example, some could think, I think
+that this will be discussed later, that
+
+00:57:05.344 --> 00:57:10.064
+cognitive modeling, cognitive science
+started with this sort of classical
+
+00:57:10.064 --> 00:57:12.193
+cognitive science, uh,
+
+00:57:13.544 --> 00:57:14.544
+idea that
+
+00:57:15.264 --> 00:57:19.514
+humans work as these symbol systems, it's
+very sort of
+
+00:57:20.544 --> 00:57:22.854
+you stack up a lot of rules,
+
+00:57:23.664 --> 00:57:28.494
+if then rules, and then you can explain
+how the human cognition works.
+
+00:57:29.304 --> 00:57:31.533
+But that turned out, well, not maybe
+
+00:57:32.224 --> 00:57:37.544
+wrong, but at least not a very good way
+of, uh, of trying to
+
+00:57:37.544 --> 00:57:39.414
+explain human cognition.
+
+00:57:42.504 --> 00:57:46.264
+Okay, but actually that there's more about
+that later in the first lecture, in
+
+00:57:46.264 --> 00:57:51.064
+the some symbolic modeling lecture, and
+even some questions, and we can come
+
+00:57:51.064 --> 00:57:55.173
+back to this question, uh, more in the
+next Q&A.
+
+00:57:58.984 --> 00:58:03.053
+Okay, any questions about the modeling in
+general?
+
+00:58:10.344 --> 00:58:12.504
+Okay, if not, then we can move.
+
+00:58:12.504 --> 00:58:13.513
+Now we have
+
+00:58:14.824 --> 00:58:19.353
+tried to figure out or have have some at
+least working definition or some
+
+00:58:19.384 --> 00:58:24.944
+criteria for what is cognitive, cognitive,
+uh, what do we mean by
+
+00:58:24.944 --> 00:58:28.934
+it in this course, in this context, and
+what is modeling.
+
+00:58:30.024 --> 00:58:35.344
+So now, of course, all not all modeling is
+cognitive modeling, not
+
+00:58:35.344 --> 00:58:36.344
+all
+
+00:58:36.824 --> 00:58:37.824
+cognitive
+
+00:58:38.224 --> 00:58:39.734
+study is modeling.
+
+00:58:40.704 --> 00:58:42.594
+Well, yeah, maybe I so you could,
+
+00:58:43.944 --> 00:58:48.613
+yeah, you can study sort of just a sort of
+a detour that you can study
+
+00:58:49.144 --> 00:58:54.554
+sys- do a cognitive study of systems
+without having a A cognitive model
+
+00:58:55.064 --> 00:58:57.294
+as such. So you can,
+
+00:58:58.144 --> 00:58:59.634
+you can just see how,
+
+00:59:00.584 --> 00:59:01.654
+how a system
+
+00:59:02.904 --> 00:59:07.874
+reacts to some stimulus, so how the cat,
+for example, reacts to some stimulus,
+
+00:59:07.984 --> 00:59:11.453
+and then make a note of those
+relationships.
+
+00:59:11.624 --> 00:59:12.853
+And it, it's not
+
+00:59:13.624 --> 00:59:15.694
+really modeling maybe in this,
+
+00:59:16.504 --> 00:59:21.144
+in this sense, in the computational
+modeling, in the sense that we are trying to
+
+00:59:21.144 --> 00:59:22.144
+do here.
+
+00:59:23.024 --> 00:59:27.834
+But, but modeling is only still one way of
+doing cognitive science, but this is
+
+00:59:28.024 --> 00:59:29.534
+where we focus now.
+
+00:59:32.424 --> 00:59:36.054
+Okay, so what is the cognitive modeling we
+are focusing on?
+
+00:59:37.384 --> 00:59:38.384
+Uh,
+
+00:59:40.104 --> 00:59:41.413
+so this a
+
+00:59:42.744 --> 00:59:46.744
+very common, this is sort of a knee-jerk
+reaction that you have when you are
+
+00:59:46.744 --> 00:59:51.853
+asked to do a cognitive model of a system
+or analyze it cognitively,
+
+00:59:52.344 --> 00:59:56.573
+uh, is the so-called perception-action
+loop.
+
+00:59:58.704 --> 01:00:03.984
+So in order to study this information
+processing, which is our interest of
+
+01:00:03.984 --> 01:00:05.393
+study here, what is the,
+
+01:00:06.304 --> 01:00:09.933
+what is the sort of mechanism how the
+cognition works,
+
+01:00:10.704 --> 01:00:16.104
+uh, we have to sort of somehow isolate it
+from other parts of
+
+01:00:16.104 --> 01:00:17.104
+the
+
+01:00:17.184 --> 01:00:18.184
+totality
+
+01:00:18.864 --> 01:00:22.534
+that the thing under study happens to be.
+
+01:00:23.504 --> 01:00:24.894
+So we make a split
+
+01:00:25.824 --> 01:00:27.653
+of the environment,
+
+01:00:28.264 --> 01:00:32.813
+and then I should have drawn a line, but
+somewhere around here
+
+01:00:33.624 --> 01:00:34.634
+goes a line
+
+01:00:35.264 --> 01:00:38.054
+where we separate the agent,
+
+01:00:38.944 --> 01:00:40.653
+uh, and the environment.
+
+01:00:43.504 --> 01:00:47.424
+This is the how, what is the environment
+and what is the agent, where do you
+
+01:00:47.424 --> 01:00:50.704
+draw the line is often, it's not clear at
+all.
+
+01:00:50.704 --> 01:00:54.784
+So when, for example, you study humans,
+you could think that, okay, it's the
+
+01:00:54.784 --> 01:00:58.854
+physical extent some- somewhere in here
+where the, uh,
+
+01:00:59.784 --> 01:01:02.453
+where the flesh turns into air, we have
+to,
+
+01:01:03.464 --> 01:01:08.584
+uh, we have extracted what the agent as a
+human is or what and what the
+
+01:01:08.584 --> 01:01:09.654
+environment is.
+
+01:01:10.304 --> 01:01:11.304
+Uh,
+
+01:01:11.784 --> 01:01:17.213
+but when we study the information
+processing, o- that, that is not
+
+01:01:17.224 --> 01:01:22.373
+usually a very useful, uh, way of
+splitting the environment from the agent.
+
+01:01:22.864 --> 01:01:23.864
+Uh,
+
+01:01:23.944 --> 01:01:25.813
+so it, so for example,
+
+01:01:26.824 --> 01:01:30.664
+some branches of cognitive science, sort
+of the classical branch, which it has
+
+01:01:30.664 --> 01:01:33.374
+been criticized from a lot, but sort of
+thinks
+
+01:01:34.064 --> 01:01:35.733
+that just the brain
+
+01:01:36.404 --> 01:01:37.404
+is, is the
+
+01:01:38.304 --> 01:01:41.654
+system. So there's this so-called brain in
+a vat, uh,
+
+01:01:42.464 --> 01:01:47.384
+criticism or implicit assumption in lots
+of, especially the older cognitive
+
+01:01:47.384 --> 01:01:48.794
+science. And there
+
+01:01:49.464 --> 01:01:53.494
+everything else, the body and the eyes and
+the system, so everything
+
+01:01:54.864 --> 01:01:58.184
+not being in the brain would actually be
+the agent.
+
+01:01:58.184 --> 01:02:00.854
+So the body would be part of the
+environment.
+
+01:02:01.944 --> 01:02:04.453
+And then the actions wouldn't be something
+like somebody
+
+01:02:05.744 --> 01:02:08.473
+hitting a table, but they would be sort of
+
+01:02:09.144 --> 01:02:13.344
+send- sending some neural impulses that
+then form a cascade that make this
+
+01:02:13.344 --> 01:02:14.344
+happen.
+
+01:02:17.024 --> 01:02:18.234
+But there's also,
+
+01:02:20.064 --> 01:02:23.904
+so you can make the divide sort of if you
+study human, you can make it within
+
+01:02:23.904 --> 01:02:29.304
+the human, not be be just the body is in
+the environment, but you can also do
+
+01:02:29.304 --> 01:02:33.773
+it another way. So there is this so-called
+extended cognition idea
+
+01:02:34.704 --> 01:02:35.704
+that
+
+01:02:35.824 --> 01:02:37.854
+if I, for example, uh,
+
+01:02:38.584 --> 01:02:39.584
+have to
+
+01:02:40.744 --> 01:02:45.124
+divide, let's say, let's say I have two
+big numbers I have to divide, and I have
+
+01:02:45.124 --> 01:02:50.593
+to do long division, which I haven't been
+able to do in 30 years, uh, but,
+
+01:02:51.224 --> 01:02:55.813
+but then I took, take a pencil and paper
+and use that to compute.
+
+01:02:56.464 --> 01:03:01.984
+Then you can think of that the paper
+actually becomes, and the markings
+
+01:03:01.984 --> 01:03:05.984
+on the paper become part of the same
+cognitive system.
+
+01:03:05.984 --> 01:03:06.984
+So the,
+
+01:03:07.264 --> 01:03:08.354
+so the cognitive
+
+01:03:09.104 --> 01:03:14.414
+where we draw the a- uh, agent versus the
+environment, uh, also
+
+01:03:14.464 --> 01:03:18.094
+extends to that note taking stuff.
+
+01:03:18.424 --> 01:03:22.704
+And you, you can quite easily actually
+think in here because with, when we
+
+01:03:22.704 --> 01:03:26.623
+discuss cognition, we discuss things like
+memory, short-term memory, for
+
+01:03:26.623 --> 01:03:29.154
+example, which is quite clearly we can
+
+01:03:29.984 --> 01:03:33.373
+it quite similarly take note of them and
+have
+
+01:03:33.984 --> 01:03:37.974
+sort of externalized our memory and
+studying how the
+
+01:03:38.744 --> 01:03:43.794
+computation is done by the human doesn't
+really make sense if you don't take
+
+01:03:43.824 --> 01:03:47.494
+into account that they use this external
+memory.
+
+01:03:53.544 --> 01:03:54.544
+So,
+
+01:03:55.424 --> 01:04:00.654
+what is cognitive modeling? Well, the goal
+of cognitive modeling could be put
+
+01:04:01.624 --> 01:04:02.624
+as
+
+01:04:03.384 --> 01:04:08.813
+modeling information processing that turns
+perception into action.
+
+01:04:09.704 --> 01:04:13.013
+So we are studying what happens in here.
+
+01:04:13.584 --> 01:04:15.224
+What is the information processing?
+
+01:04:15.224 --> 01:04:20.433
+How would we, what kind of algorithm, for
+example, could be there that turns,
+
+01:04:20.664 --> 01:04:23.573
+uh, the perceptions into actions.
+
+01:04:25.784 --> 01:04:29.134
+So, for example, very simple one, we will
+see simple ones
+
+01:04:29.944 --> 01:04:32.653
+s- soon, but what, uh,
+
+01:04:33.704 --> 01:04:38.824
+so cars have these, uh, they're called
+adaptive cruise control
+
+01:04:38.824 --> 01:04:41.333
+systems that try to keep a
+
+01:04:42.184 --> 01:04:47.513
+fixed distance to the car ahead, head of
+them, uh, at least
+
+01:04:47.624 --> 01:04:51.853
+so, so you could have a very, very simple
+one that just measures with some
+
+01:04:51.864 --> 01:04:56.354
+laser, for example, the distance, and then
+if the distance is, uh,
+
+01:04:57.384 --> 01:05:02.264
+too close, they will slow down, and when,
+uh, if, if it's too high, they will
+
+01:05:02.264 --> 01:05:03.264
+speed up.
+
+01:05:04.704 --> 01:05:09.833
+And then there would be, so we'd have the
+perception, uh, being the laser, uh,
+
+01:05:09.864 --> 01:05:11.574
+the range measurement,
+
+01:05:12.304 --> 01:05:16.824
+and then we would process the information
+by making this computation of whether
+
+01:05:16.824 --> 01:05:17.824
+it's, uh,
+
+01:05:18.424 --> 01:05:23.984
+too, the distance is too, uh, long or too
+short, and then it would take
+
+01:05:23.984 --> 01:05:25.793
+some action like, uh,
+
+01:05:26.784 --> 01:05:31.533
+like increase acceleration of the system
+or send some electrical signal for the,
+
+01:05:32.064 --> 01:05:35.373
+uh, car's controlling computer to do that.
+
+01:05:36.904 --> 01:05:40.834
+And of course it would happen in this sort
+of road environment, how then it
+
+01:05:40.864 --> 01:05:46.254
+press ac- presses acceleration, and then
+the tires grip to the ground and
+
+01:05:46.544 --> 01:05:52.033
+so on. So it has some effects on it, and
+then we will get a new range,
+
+01:05:52.224 --> 01:05:53.224
+uh,
+
+01:05:53.664 --> 01:05:57.293
+new new range measurement of percept, and
+on we go.
+
+01:05:57.504 --> 01:05:58.813
+So that would be sort of a
+
+01:05:59.744 --> 01:06:00.744
+si- simple,
+
+01:06:02.504 --> 01:06:07.014
+simple system that we can analyze using
+this kind of decomposition.
+
+01:06:08.864 --> 01:06:13.584
+Also, you could call this, we will know in
+a bit why you would, you could call
+
+01:06:13.584 --> 01:06:14.584
+this
+
+01:06:15.104 --> 01:06:20.344
+the rules of behavior. So what are the
+rules that go- govern the
+
+01:06:20.344 --> 01:06:24.693
+behavior of something? Could be a better
+shorthand than,
+
+01:06:25.384 --> 01:06:27.013
+than this mouthful.
+
+01:06:34.944 --> 01:06:39.133
+Okay, but let's get another example of,
+uh,
+
+01:06:40.264 --> 01:06:43.914
+of how we could analyze some behavior with
+this
+
+01:06:44.704 --> 01:06:49.113
+cognitive framework or this decomposition
+of the co- uh,
+
+01:06:49.864 --> 01:06:50.864
+uh,
+
+01:06:51.384 --> 01:06:56.133
+perception action loop. Uh, maybe one
+thing just before we go there.
+
+01:06:57.344 --> 01:07:02.744
+So this is, this is the knee jerk reaction
+when you try to decompose a
+
+01:07:02.744 --> 01:07:06.914
+system, and this is the usual frame that
+you use
+
+01:07:07.864 --> 01:07:12.614
+when you try to understand something
+cognitively or model, especially model it.
+
+01:07:13.384 --> 01:07:15.753
+But there are approaches where
+
+01:07:16.504 --> 01:07:18.414
+there is no clean
+
+01:07:19.464 --> 01:07:24.864
+separation. So the environment is s- s-
+the dynamics of the
+
+01:07:24.864 --> 01:07:30.424
+environment and the agents are so closely
+tied up that it
+
+01:07:30.424 --> 01:07:34.053
+doesn't really make sense to try, uh,
+
+01:07:34.784 --> 01:07:37.554
+to try to isolate, uh, the,
+
+01:07:39.944 --> 01:07:42.093
+uh, the agent from the environment.
+
+01:07:42.744 --> 01:07:47.413
+We will maybe discuss some of this, so
+philosophically you may hear about
+
+01:07:47.464 --> 01:07:52.614
+enactivism, for example, so that is sort
+of a view that, that, uh,
+
+01:07:53.864 --> 01:07:54.864
+that it's more the
+
+01:07:55.504 --> 01:08:01.133
+total- totality of the environment where
+there could be some agent or not.
+
+01:08:01.824 --> 01:08:02.744
+Or
+
+01:08:02.744 --> 01:08:07.834
+it has an older strand in psychology is
+ecolo- logical psychology,
+
+01:08:08.184 --> 01:08:13.693
+especially or Gibsonian psychology, which
+also takes this view that the, uh,
+
+01:08:14.464 --> 01:08:18.734
+that it's fundamentally, uh, the
+interaction of the
+
+01:08:19.864 --> 01:08:24.234
+organism or system and its environment in
+a sense where you cannot even tell
+
+01:08:24.264 --> 01:08:26.094
+where one ends and one
+
+01:08:26.744 --> 01:08:27.744
+begins.
+
+01:08:30.384 --> 01:08:32.953
+Okay, with that caveat, we can get back,
+
+01:08:34.024 --> 01:08:38.414
+to the frog. So maybe hands up, how many
+of you think that frog
+
+01:08:39.864 --> 01:08:40.864
+is
+
+01:08:40.864 --> 01:08:42.414
+a cognitive entity?
+
+01:08:44.984 --> 01:08:48.114
+Okay, almost everyone. So it exhibits,
+
+01:08:49.744 --> 01:08:51.333
+frog exhibits some,
+
+01:08:53.424 --> 01:08:56.634
+Intelligent behavior, which was the
+adaptive,
+
+01:08:57.704 --> 01:08:58.704
+uh,
+
+01:09:00.704 --> 01:09:01.714
+goal oriented
+
+01:09:04.384 --> 01:09:06.694
+in complex, partially, uh,
+
+01:09:07.304 --> 01:09:08.734
+predictable environment.
+
+01:09:12.144 --> 01:09:17.513
+So frog, we will encounter the frog again
+in, uh, some of the lectures,
+
+01:09:17.544 --> 01:09:21.904
+not sure which one, maybe when we discuss
+some neural stuff, maybe neural
+
+01:09:21.904 --> 01:09:23.814
+networks, not sure it will come up.
+
+01:09:24.824 --> 01:09:26.113
+But how,
+
+01:09:27.584 --> 01:09:32.813
+what kind of information processing
+happens within the frog,
+
+01:09:32.984 --> 01:09:34.213
+maybe its brain or
+
+01:09:34.944 --> 01:09:40.372
+however it's implemented, has been of
+considerable debate, uh,
+
+01:09:40.944 --> 01:09:41.944
+in in
+
+01:09:42.503 --> 01:09:45.134
+cognitive science and also in philosophy.
+
+01:09:45.624 --> 01:09:46.624
+It's
+
+01:09:46.624 --> 01:09:49.824
+it's a very hot topic still in filos-
+philosophy.
+
+01:09:49.824 --> 01:09:53.544
+I have actually been part of one paper,
+but I think it's a bit of a stupid
+
+01:09:53.544 --> 01:09:56.214
+debate, so don't go too deep into that.
+
+01:09:58.024 --> 01:10:03.433
+Okay, so, but there was this paper, I
+sadly forget who made, made it, uh,
+
+01:10:04.024 --> 01:10:06.013
+where they studied,
+
+01:10:07.464 --> 01:10:12.533
+they took frogs, uh, and then they showed
+different sort of spot
+
+01:10:12.824 --> 01:10:13.824
+patterns
+
+01:10:14.104 --> 01:10:15.213
+to the frog.
+
+01:10:16.384 --> 01:10:22.014
+And they saw that with certain kinds of
+patterns that, uh, the frogs saw,
+
+01:10:22.024 --> 01:10:26.093
+I think it was just on a screen, they
+lashed their tongue out.
+
+01:10:29.784 --> 01:10:34.464
+Okay, and then the idea, okay, it probably
+lashes out its tongue to try to
+
+01:10:34.464 --> 01:10:37.574
+catch, catch the fly to eat it.
+
+01:10:40.384 --> 01:10:41.894
+But then the question is,
+
+01:10:42.784 --> 01:10:45.454
+what? So the frog sees
+
+01:10:46.104 --> 01:10:51.024
+just a blob. These were quite simple
+blobs, and for some blobs it
+
+01:10:51.024 --> 01:10:55.734
+slas- lashes out its tongue, and for some
+it doesn't.
+
+01:10:59.304 --> 01:11:01.394
+So how, what,
+
+01:11:02.744 --> 01:11:06.913
+how does it figure out, or what are the
+blobs that its
+
+01:11:07.744 --> 01:11:09.613
+fly detector, uh,
+
+01:11:10.504 --> 01:11:12.294
+detects as flies?
+
+01:11:15.424 --> 01:11:20.733
+Uh, so there, there is this proposal that
+it, there is so-called net convexity
+
+01:11:21.144 --> 01:11:26.624
+detector, that if you have some sort of a
+shape, uh, well, it has to
+
+01:11:26.624 --> 01:11:30.733
+be, you, you have to be able to figure out
+its, uh,
+
+01:11:31.544 --> 01:11:35.294
+outline, but also it has to have high
+
+01:11:35.983 --> 01:11:41.313
+net convexity. So it, it, the net
+convexity refers, uh,
+
+01:11:42.184 --> 01:11:46.864
+sort of to how it's shaped, that there are
+no these steep, steep angles.
+
+01:11:46.864 --> 01:11:51.074
+So, for example, a circle would have quite
+high net convexity, which
+
+01:11:51.864 --> 01:11:54.464
+this will be discussed a bit further
+later.
+
+01:11:54.464 --> 01:11:58.213
+It's not important what it really is, but
+that there is this
+
+01:11:59.104 --> 01:12:02.253
+system that tries to detect blobs.
+
+01:12:02.864 --> 01:12:07.854
+It, the frog gets into its retina, into
+its eye, uh,
+
+01:12:08.804 --> 01:12:13.973
+and they have this geometrical property
+that is then used to figure out, uh,
+
+01:12:13.983 --> 01:12:15.894
+when there's a fly in its field.
+
+01:12:16.184 --> 01:12:18.954
+And then if it detects one, then it can,
+
+01:12:19.664 --> 01:12:24.374
+uh, take the action that here would be the
+tongue strike into the
+
+01:12:25.464 --> 01:12:29.894
+direction where it sees it relative to the
+eye position and so on.
+
+01:12:32.384 --> 01:12:37.054
+So this could be one sort of co- cognitive
+analysis, and you could even try to
+
+01:12:37.344 --> 01:12:42.954
+run model this by just running a sort of
+co- computer vision program that takes,
+
+01:12:43.144 --> 01:12:47.504
+takes in these different inputs and then
+tries to detect this net convexity and
+
+01:12:47.504 --> 01:12:51.193
+then see then, well, output in the
+program, okay, now
+
+01:12:51.984 --> 01:12:53.253
+lash out the tongue.
+
+01:12:54.424 --> 01:12:58.864
+And also you could then, if you make that
+kind of a program, then you can try to
+
+01:12:58.864 --> 01:13:00.693
+show the frog, uh,
+
+01:13:01.344 --> 01:13:06.794
+similar, the same inputs that you give to
+the program, and if you see that it in
+
+01:13:06.824 --> 01:13:12.013
+same cases more or less mo- most of the
+time, depending on your criteria,
+
+01:13:12.264 --> 01:13:13.374
+uh, the
+
+01:13:14.344 --> 01:13:18.654
+program lashes out. So whether the program
+detects flies, si-
+
+01:13:19.784 --> 01:13:25.414
+the the flies that uh the frog does as
+well, would be an empirical study of this
+
+01:13:25.464 --> 01:13:26.464
+model.
+
+01:13:27.304 --> 01:13:29.654
+And that that's usually quite that that's
+sort of the
+
+01:13:30.304 --> 01:13:34.234
+ma- what makes this modeling a science is
+is that you should
+
+01:13:35.024 --> 01:13:40.594
+empirically evaluate whether your model
+actually behaves the same as
+
+01:13:41.264 --> 01:13:42.934
+as the system that it's
+
+01:13:43.644 --> 01:13:45.253
+it's supposed to be modeling.
+
+01:13:52.904 --> 01:13:58.173
+Okay. Well, then we get into this maybe
+provocative example, uh, of
+
+01:13:58.384 --> 01:14:03.584
+the thermostat. So this is also
+considerable deb- uh, subject of
+
+01:14:03.584 --> 01:14:07.133
+considerable debate in some corners of
+philosophy.
+
+01:14:08.064 --> 01:14:11.213
+But the question is that, is a thermostat
+
+01:14:12.184 --> 01:14:13.813
+a cognitive system?
+
+01:14:14.624 --> 01:14:19.734
+Okay, so as I, my, my view, as I
+established, is that, uh,
+
+01:14:20.104 --> 01:14:25.184
+it's not the thermostat that is cognitive
+and not maybe even the
+
+01:14:25.184 --> 01:14:30.474
+perspective, uh, the behavior, but the
+question is whether it makes sense
+
+01:14:30.984 --> 01:14:36.073
+to try to understand some behavior of the
+thermostat, uh,
+
+01:14:36.344 --> 01:14:37.453
+use- using this
+
+01:14:38.104 --> 01:14:40.493
+information processing perspective.
+
+01:14:42.744 --> 01:14:43.744
+And, uh,
+
+01:14:44.544 --> 01:14:49.474
+thermostats are, well, they clearly have
+this, you can, you can clearly
+
+01:14:49.784 --> 01:14:51.974
+draw this perception action loop.
+
+01:14:52.384 --> 01:14:53.384
+So you have,
+
+01:14:53.824 --> 01:14:54.824
+have the
+
+01:14:55.624 --> 01:15:00.574
+thermostat in some room, and then it makes
+readings of the temperature.
+
+01:15:01.224 --> 01:15:04.973
+Uh, actually it can be just totally, uh,
+
+01:15:07.064 --> 01:15:11.144
+totally mechanical, so like metallic strip
+expanding or contracting depending on
+
+01:15:11.144 --> 01:15:12.174
+the temperature.
+
+01:15:13.344 --> 01:15:17.473
+Uh, and then it it makes some sort of a
+
+01:15:17.944 --> 01:15:19.174
+computation.
+
+01:15:20.104 --> 01:15:25.184
+So here this would be P controller or uh
+proportional controller we will
+
+01:15:25.184 --> 01:15:26.653
+encounter later as well.
+
+01:15:27.544 --> 01:15:29.114
+But here we can see that
+
+01:15:29.864 --> 01:15:34.613
+the thermostat is set to some target here,
+T0.
+
+01:15:35.024 --> 01:15:37.694
+You can see it's here it's 20 degrees.
+
+01:15:40.544 --> 01:15:46.174
+And then it's has observed the temperature,
+so it has perceived the temperature,
+
+01:15:46.304 --> 01:15:51.894
+and it computes their difference and tries
+to move it towards the, uh,
+
+01:15:52.144 --> 01:15:57.713
+desired temperature. So exactly like you
+could use in the, uh, out- uh,
+
+01:15:58.464 --> 01:15:59.933
+automated, uh,
+
+01:16:01.784 --> 01:16:05.493
+what was it? Well, in the, in the car that
+follows the other car automatically.
+
+01:16:07.904 --> 01:16:09.854
+So it seems that, well,
+
+01:16:10.704 --> 01:16:15.064
+we have this computation, but importantly,
+the computation doesn't necessarily
+
+01:16:15.064 --> 01:16:20.153
+happen as such. There's no computer in
+this, uh, manual, uh,
+
+01:16:21.784 --> 01:16:24.054
+or these, uh, physical thermostats.
+
+01:16:24.584 --> 01:16:29.173
+But it does, uh, exhibit this property
+that we can
+
+01:16:29.384 --> 01:16:34.384
+approximate it using some sort of equation
+that you can turn into a
+
+01:16:34.384 --> 01:16:35.384
+computation.
+
+01:16:36.064 --> 01:16:38.173
+And it has a goal.
+
+01:16:39.344 --> 01:16:44.074
+It's some sense seems to adapt, uh, to
+each
+
+01:16:44.304 --> 01:16:49.234
+environment. So if the temperature, uh,
+increases, it,
+
+01:16:49.904 --> 01:16:50.904
+uh,
+
+01:16:51.184 --> 01:16:53.263
+cools down if it's too high and so on.
+
+01:16:53.263 --> 01:16:57.174
+So there is some variation and, uh,
+
+01:16:58.224 --> 01:17:02.624
+partially predictable, uh, changes in the
+environment.
+
+01:17:02.624 --> 01:17:04.454
+So we know from the, we
+
+01:17:05.304 --> 01:17:08.574
+know that we, or we can assume that the,
+uh,
+
+01:17:10.224 --> 01:17:14.584
+that the temperature doesn't just spike up
+immediately to 1000 degrees Celsius.
+
+01:17:14.584 --> 01:17:19.813
+So we can know something about, uh, how
+the temperature will behave.
+
+01:17:19.824 --> 01:17:23.334
+Of course, we cannot fully behave, fully,
+uh,
+
+01:17:24.224 --> 01:17:25.934
+predict it, uh,
+
+01:17:26.664 --> 01:17:30.424
+with then, because then we have to do this
+approximate weather forecast in a
+
+01:17:30.424 --> 01:17:35.664
+very complex system, so it's only we can
+predict some statistical, uh,
+
+01:17:35.664 --> 01:17:39.893
+behavior of how it will, uh, operate in
+the future.
+
+01:17:41.824 --> 01:17:46.104
+Uh, there's the complexity, but that, of
+course, that is clearly simpler system
+
+01:17:46.104 --> 01:17:49.854
+than the room itself and all the air and
+stuff in it.
+
+01:17:51.304 --> 01:17:52.304
+Uh,
+
+01:17:53.504 --> 01:17:54.533
+so sort of from
+
+01:17:55.224 --> 01:17:58.294
+this perspective, it does seem to fit,
+
+01:17:59.224 --> 01:18:00.253
+uh, all,
+
+01:18:02.464 --> 01:18:03.954
+fit all the, uh,
+
+01:18:04.584 --> 01:18:06.713
+criteria for our intelligent
+
+01:18:07.784 --> 01:18:08.784
+behavior.
+
+01:18:09.784 --> 01:18:15.264
+So if you use that criteria and accept
+that this fulfills that, those criteria,
+
+01:18:15.264 --> 01:18:16.264
+then you would
+
+01:18:16.584 --> 01:18:21.214
+logically have to admit that it does
+intelligent behavior in this sense.
+
+01:18:23.064 --> 01:18:24.734
+Okay, so have I managed to
+
+01:18:25.744 --> 01:18:31.053
+convince anybody now that the thermostat
+is actually a cognitive system?
+
+01:18:32.544 --> 01:18:33.544
+Hands up.
+
+01:18:35.144 --> 01:18:37.333
+Okay, I'll have to keep pressing on this
+point.
+
+01:18:44.664 --> 01:18:48.633
+Okay, but we will close up with another
+
+01:18:49.904 --> 01:18:51.833
+excerpt from the same paper.
+
+01:18:51.984 --> 01:18:52.984
+Actually, this is
+
+01:18:53.464 --> 01:18:55.893
+Even the same paragraph, it continues
+
+01:18:56.544 --> 01:18:58.173
+exactly from the previous one.
+
+01:18:59.424 --> 01:19:04.913
+So there Turing writes, if we are able to
+explain and predict
+
+01:19:05.584 --> 01:19:10.944
+the behavior of something, or there seems
+to be little underlying plan, we
+
+01:19:10.944 --> 01:19:14.313
+have little temptation to imagine
+
+01:19:15.184 --> 01:19:16.184
+intelligence.
+
+01:19:16.904 --> 01:19:21.584
+With the same object, therefore, it is
+possible that one man would consider it
+
+01:19:21.584 --> 01:19:24.533
+as intelligent and another would not.
+
+01:19:26.104 --> 01:19:27.104
+And
+
+01:19:27.544 --> 01:19:28.544
+the other
+
+01:19:29.424 --> 01:19:31.334
+would have not, uh,
+
+01:19:32.904 --> 01:19:38.503
+the other would deem it intelligent
+because they have not found out the
+
+01:19:38.503 --> 01:19:40.333
+rules of its behavior.
+
+01:19:42.064 --> 01:19:43.064
+So they,
+
+01:19:43.944 --> 01:19:46.173
+in a sense, if some, if the
+
+01:19:46.944 --> 01:19:52.344
+guy hasn't, the guy, guy doesn't understand
+the system, it doesn't understand
+
+01:19:52.344 --> 01:19:57.674
+the information processing, the rules of
+behavior of the system, so it
+
+01:19:57.704 --> 01:20:03.174
+thinks, so then they think, uh, that the
+system is intelligent.
+
+01:20:05.304 --> 01:20:10.194
+And here we come the thermostat idea that
+maybe why you don't deem that
+
+01:20:10.224 --> 01:20:15.624
+thermostat is, uh, intelligent is that you
+think you understand
+
+01:20:15.624 --> 01:20:17.424
+how it works, somehow simple.
+
+01:20:17.424 --> 01:20:22.494
+It's rules of behavior are something that
+you can grasp quite easily, and then
+
+01:20:22.864 --> 01:20:28.424
+you don't have to sort of apply this
+perspective of in- intelligence.
+
+01:20:28.424 --> 01:20:33.904
+You don't, it's not useful to think of it,
+uh, analogously to other things
+
+01:20:33.904 --> 01:20:37.733
+that you think are intelligent, like
+humans or animals, which have very
+
+01:20:38.184 --> 01:20:39.733
+complicated behavior, which
+
+01:20:40.864 --> 01:20:41.864
+are better,
+
+01:20:42.504 --> 01:20:44.774
+better analyzed somehow else.
+
+01:20:47.544 --> 01:20:48.544
+uh,
+
+01:20:50.624 --> 01:20:53.454
+but sort of here, this relates to
+
+01:20:54.224 --> 01:20:59.504
+many of the old sayings in machine
+learning, or the AI, as it was
+
+01:20:59.504 --> 01:21:03.973
+called, uh, before it was called machine
+learning, and then it was called AI
+
+01:21:03.983 --> 01:21:09.174
+again. It's another historical thing, but
+there was this common
+
+01:21:09.224 --> 01:21:14.254
+wisdom that when something, when you have
+a system that does seem to do some,
+
+01:21:14.504 --> 01:21:17.914
+computer system that seems to do
+something, uh,
+
+01:21:18.544 --> 01:21:23.414
+complicated, the behavior is somehow hard
+to figure out, then people will think,
+
+01:21:23.424 --> 01:21:28.414
+okay, that, that system may be
+intelligent, but once you
+
+01:21:28.544 --> 01:21:33.904
+understand how it ticks inside, once you
+understand its rules of behavior, now
+
+01:21:33.904 --> 01:21:36.234
+you suddenly think that, okay, it's,
+
+01:21:36.904 --> 01:21:39.024
+it, it's not an intelligent system.
+
+01:21:39.024 --> 01:21:44.433
+So once, once AI becomes understood, it
+stops being, uh,
+
+01:21:44.704 --> 01:21:45.704
+intelligence.
+
+01:21:48.864 --> 01:21:50.193
+Maybe I will try here
+
+01:21:50.944 --> 01:21:56.074
+to sort of flip this out to make you think
+that, uh,
+
+01:21:57.064 --> 01:22:01.613
+the better you understand the system, the
+more you can actually appreciate its
+
+01:22:01.704 --> 01:22:02.704
+intelligence,
+
+01:22:03.344 --> 01:22:05.253
+like the very smart, uh,
+
+01:22:06.064 --> 01:22:07.064
+and very
+
+01:22:07.464 --> 01:22:10.734
+elegant, uh, mechanical thermostat.
+
+01:22:14.704 --> 01:22:17.773
+Okay, that wraps up the content, uh,
+
+01:22:20.104 --> 01:22:21.574
+and for next time,
+
+01:22:22.664 --> 01:22:28.093
+watch the symbolic modeling lecture, watch
+the reinforcement learning lecture,
+
+01:22:28.344 --> 01:22:31.693
+and complete the checkpoint exercises in
+Moodle.
+
+01:22:32.344 --> 01:22:36.854
+So I would prefer that if you could do
+them by, uh,
+
+01:22:38.504 --> 01:22:43.544
+by, let's say, Friday morning, uh, because
+we then have to run the stats and
+
+01:22:43.544 --> 01:22:47.453
+plan the QA session with those, and we
+have a Monday lecture, so I don't want to
+
+01:22:47.704 --> 01:22:49.133
+ruin all my weekends.
+
+01:22:49.944 --> 01:22:54.393
+So I- I may, I'll probably put the
+deadline there, but if you really can't,
+
+01:22:55.144 --> 01:22:57.813
+uh, hack it, then you can return to later.
+
+01:22:59.424 --> 01:23:00.424
+And then we will,
+
+01:23:01.144 --> 01:23:06.053
+uh, discuss the questions and go over the
+lectures that you just watched.
+
+01:23:09.304 --> 01:23:14.913
+Okay, any questions about the
+practicalities or what was discussed or
+
+01:23:14.944 --> 01:23:15.944
+comments?
+
+01:23:16.504 --> 01:23:21.264
+Well, I mean, the checkpoint exercises are
+not yet in Moodle, right?
+
+01:23:21.264 --> 01:23:25.094
+Yes. And that's, that's to be expected,
+but they should be there.
+
+01:23:25.424 --> 01:23:28.373
+Yes, they should be. I will put them here,
+uh,
+
+01:23:29.824 --> 01:23:32.744
+today. I will, I will send an email when
+they are up.
+
+01:23:32.744 --> 01:23:37.544
+I've, uh, Okay. Usually we try to set set
+them up beforehand, but now I didn't
+
+01:23:37.544 --> 01:23:40.994
+have the time to. Yeah, all right, cool.
+
+01:23:43.664 --> 01:23:46.014
+Okay, thank you and enjoy the
+
+01:23:46.864 --> 01:23:50.013
+Otto's lectures, and we will see you next
+week.
+
+01:24:01.304 --> 01:24:02.773
+Thanks to chat too.
+
+01:24:18.984 --> 01:24:20.893
+And we're gonna roll this
+
+01:24:22.144 --> 01:24:25.131
+on program.
