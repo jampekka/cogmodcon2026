@@ -1,0 +1,7 @@
+LaTeX.css
+https://github.com/vincentdoerig/latex-css
+Commit: 1fbe1d74f8ca33595a1d50c677810033da40aa52
+Vendored 2026-10-25. style.css and LICENSE are unmodified.
+Bundled fonts: Latin Modern WOFF2, regular/bold/italic/bold italic.
+Font licence: ../../assets/LATIN-MODERN-LICENSE.txt
+The optional Libertinus family is not bundled.

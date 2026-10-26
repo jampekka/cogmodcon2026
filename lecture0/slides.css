@@ -1,0 +1,478 @@
+/* Layout only: shared typography lives in theme.css. */
+/* LaTeX-style title and author block; DOM order is also reading order. */
+#introduction { justify-content: center; align-items: center; text-align: center; gap: 24px; }
+#introduction .authors {
+  display: flex; justify-content: center; align-items: baseline;
+  width: 100%; max-width: 1080px; gap: 48px; margin-top: 32px;
+}
+#introduction .authors > span { flex: 1; white-space: nowrap; }
+#introduction .title-details { margin-top: 32px; line-height: 1.6; }
+/* Dense table: explicit size, checked against the slide rather than auto-shrunk. */
+#schedule { --table-size: 28px; gap: 16px; }
+#schedule table {
+  width: 100%; border-collapse: collapse; table-layout: fixed;
+  font-size: var(--table-size); line-height: 1.15;
+  border-top: 1px solid color-mix(in srgb, currentColor 55%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, currentColor 55%, transparent);
+}
+#schedule .date-col { width: 11%; }
+#schedule .live-col { width: 49%; }
+#schedule .video-col { width: 40%; }
+#schedule th, #schedule td {
+  text-align: left; vertical-align: middle; line-height: 1.15;
+  padding: 7px 18px;
+  border: 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+}
+#schedule thead th {
+  padding-top: 10px; padding-bottom: 10px;
+  border-bottom-color: color-mix(in srgb, currentColor 45%, transparent);
+}
+#schedule tbody th { white-space: nowrap; font-weight: 400; }
+#schedule tbody tr:last-child > * { border-bottom: 0; }
+.question-slide { justify-content: center; }
+.question-slide > p:last-of-type:not(.eyebrow) { margin-top: 30px; }
+
+/* Equal-height portraits with aligned, LaTeX-style captions. */
+#personnel .personnel-portraits {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 64px; margin: auto 0;
+}
+#personnel figure { grid-template-rows: 300px auto; gap: 24px; }
+#personnel figcaption { display: flex; flex-direction: column; gap: 12px; line-height: 1.2; }
+#personnel .person-role, #personnel .person-expertise { font-size: 24px; line-height: 1.3; }
+#personnel .person-role { font-style: normal; }
+#personnel .ghost img { opacity: .3; filter: grayscale(1); }
+#personnel .ghost figcaption { opacity: .65; }
+
+/* Keep Jami's original file intact; crop the top and bottom equally to a portrait frame. */
+#personnel img.portrait-crop {
+  width: calc(300px * 6 / 7); justify-self: center;
+  object-fit: cover; object-position: center center;
+}
+
+/* Each question, example and definition is an ordinary static slide. */
+.split-question { display: flex; justify-content: center; align-items: center; gap: .25em; white-space: nowrap; }
+.question-branches { display: flex; flex-direction: column; gap: .2em; width: 8em; text-align: center; }
+.slide.content-slide { justify-content: flex-start; }
+.example-figure {
+  flex: 1; min-height: 0; margin: 0; padding: 12px 80px 0;
+  grid-template-rows: minmax(0, 1fr) auto; justify-items: center; gap: 22px;
+}
+.example-answer { flex: 1; min-height: 0; display: grid; place-items: center; }
+.example-answer p { max-width: 1000px; text-align: center; }
+
+/* The definition is read as one sentence, with its key properties on separate lines. */
+.intelligence-definition {
+  align-self: center;
+  width: max-content;
+  max-width: 100%;
+  margin: auto 0;
+  text-align: left;
+  font-size: 82px;
+  line-height: 1.08;
+  padding-right: 1.25em; /* Reserve the extra width of the expanded capitals. */
+}
+
+.definition-line { display: block; }
+
+.intelligence-definition strong {
+  display: inline-block;
+  transform: scaleX(1.1);
+  transform-origin: left center;
+  font-family: "Heros", sans-serif;
+  font-weight: 700;
+  letter-spacing: -.025em;
+}
+
+/* A quotation with its attribution grouped in the body of the slide. */
+.turing-quotation { max-width: 1220px; margin: auto; }
+.turing-quotation .quote-heading { margin: 0 0 18px; font-size: 30px; font-weight: 400; line-height: 1.2; letter-spacing: .025em; }
+.turing-quotation blockquote { margin: 0; padding: 0; border: 0; font-size: 48px; line-height: 1.35; }
+.turing-quotation .quote-attribution { margin-top: 24px; font-size: 30px; line-height: 1.4; }
+
+/* The 2019 Turing concept artwork stays subdued behind both quotation slides. */
+.turing-note-background {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--paper) 84%, transparent), color-mix(in srgb, var(--paper) 84%, transparent)),
+    url("assets/turing-50-concept.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Keep the complete artwork and its text together in an aspect-ratio frame. */
+#cognitive-is-as-cognitive-does {
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  background: var(--paper);
+}
+.banknote-frame {
+  position: relative;
+  height: 100%;
+  aspect-ratio: 524 / 386;
+  max-width: 100%;
+  flex: none;
+  background: url("assets/turing-50-concept.jpg") center / contain no-repeat;
+}
+/* Adjust this one box in the browser; coordinates are relative to the artwork. */
+.banknote-text {
+  position: absolute;
+  left: 0px;
+  top: 153px;
+  width: 746px;
+  padding: 28px;
+  border-radius: 0 12px 12px 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+#cognitive-is-as-cognitive-does .banknote-text > h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.15;
+}
+#cognitive-is-as-cognitive-does .turing-quotation {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+#cognitive-is-as-cognitive-does blockquote { font-size: 40px; line-height: 1.3; }
+#cognitive-is-as-cognitive-does .quote-attribution { font-size: 28px; }
+#cognitive-is-as-cognitive-does .quote-attribution,
+#cognitive-is-as-cognitive-does a { color: inherit; }
+
+@font-face {
+  font-family: "Nunito";
+  src: url("assets/Nunito.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+}
+
+/* Local paper treatment for the modelling examples. */
+.paper-slide {
+  --paper: #f2e7d3;
+  --ink: #4a4640;
+  --body-color: var(--ink);
+  --font: "Nunito", sans-serif;
+  --heading-weight: 400;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+}
+.paper-slide h1, .paper-slide h2 { text-align: left; }
+
+@font-face {
+  font-family: "Caveat";
+  src: url("assets/Caveat.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+#this-is-not-a-cat { padding-top: 40px; padding-bottom: 40px; gap: 18px; }
+.paper-slide .cat-representation {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: 12px 32px 0;
+  gap: 16px;
+}
+.paper-slide .cat-representation img {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.paper-slide .cat-representation figcaption {
+  flex: none;
+  font-family: "Caveat", cursive;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* The title belongs to the argument panel; the figure uses the full slide height. */
+.modelling-panels .modelling-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-size: 36px;
+  line-height: 1.35;
+}
+.modelling-panels .modelling-text h2 { font-size: 48px; line-height: 1.2; }
+.modelling-panels .modelling-text ul { display: grid; gap: 24px; margin: 0; }
+.modelling-panels .cat-representation { align-self: stretch; }
+
+/* Keep existing text in place when advancing to the static shape-question reveal. */
+:is(#cat-as-representation, #modelling-cat-shape, .cat-model-slide) .modelling-text {
+  align-self: start;
+  padding-top: 48px;
+}
+
+/* The viewer occupies the same flexible figure area as the photograph. */
+.cat-representation .cat-model {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+.cat-model-status {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+.cat-model-status[hidden] { display: none; }
+
+.cat-model canvas { cursor: grab; }
+.cat-model canvas:active { cursor: grabbing; }
+
+/* Extend the model behind all content; only the slide edges clip it. */
+.cat-model-slide { isolation: isolate; overflow: hidden; }
+.cat-model-slide > .cat-model {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.cat-model-slide > .modelling-panels {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+.cat-model-slide .modelling-text { pointer-events: auto; }
+.cat-camera-frame { flex: 1; min-height: 0; width: 100%; }
+
+/* Calculations stay indented under their premise without a list marker. */
+.modelling-text .model-calculation { margin: 8px 0 0 1em; }
+
+/* The same schematic layout carries from the general loop to the thermostat. */
+.perception-loop { flex: 1; grid-template-rows: minmax(0, 1fr); }
+.perception-loop svg { color: var(--ink); }
+.perception-loop text { font-family: var(--font); font-size: 24px; fill: currentColor; text-anchor: middle; }
+.perception-loop .loop-box, .perception-loop .loop-arrow { fill: none; stroke: currentColor; stroke-width: 2; }
+
+.loop-panels { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 56px; align-items: center; }
+.loop-panels .loop-copy { font-size: 36px; }
+.loop-panels .loop-copy ul { margin: 0; }
+.loop-panels .loop-copy ul ul { margin-top: 20px; }
+.loop-panels .perception-loop { width: 100%; aspect-ratio: 540 / 420; }
+
+.loop-copy > ul > li + li { margin-top: 22px; }
+
+.perception-loop .loop-arrow { stroke-linecap: round; stroke-linejoin: round; }
+
+/* The physical system sits beside the heading, outside the model diagram. */
+.illustrated-heading { display: flex; align-items: center; gap: 32px; min-height: 180px; }
+.illustrated-heading h2 { flex: 1; min-width: 0; text-align: left; }
+.illustrated-heading img { flex: 0 0 200px; width: 200px; height: 180px; object-fit: contain; }
+
+.frog-heading img { flex-basis: 360px; width: 360px; }
+
+/* Only the browser's temporary snapshots fade. Live slide styles stay final. */
+::view-transition-group(root),
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 180ms;
+  animation-timing-function: ease-out;
+}
+::view-transition { pointer-events: none; }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(root),
+  ::view-transition-old(root),
+  ::view-transition-new(root) { animation: none; }
+}
+
+/* Shared words are ordinary layout elements; only their snapshots animate.
+   Do not promote words to separate capture layers outside text transitions. */
+:root:not([data-slide-transition="text"]) [data-vt] { view-transition-name: none; }
+[data-vt] { display: inline-block; }
+[data-vt="what"] { view-transition-name: word-what; }
+[data-vt="is"] { view-transition-name: word-is; }
+[data-vt="cognitive"] { view-transition-name: word-cognitive; }
+[data-vt="modelling"] { view-transition-name: word-modelling; }
+[data-vt="question"] { view-transition-name: word-question; }
+[data-vt="entities"] { view-transition-name: word-entities; }
+[data-vt="intelligent"] { view-transition-name: phrase-intelligent; }
+
+::view-transition-group(word-what),
+::view-transition-group(word-is),
+::view-transition-group(word-cognitive),
+::view-transition-group(word-modelling),
+::view-transition-group(word-question),
+::view-transition-group(word-entities),
+::view-transition-group(phrase-intelligent) {
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(.25, .1, .25, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) { animation: none; }
+}
+
+/* Lift the reordering word above its neighbours without touching live layout. */
+:root[data-text-transition="reorder"]::view-transition-image-pair(word-what) {
+  animation: question-word-arc 600ms ease-in-out both;
+}
+@keyframes question-word-arc {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -80px; }
+}
+/* Finish font-weight crossfades early while the position keeps moving. */
+::view-transition-old(*),
+::view-transition-new(*) { animation-duration: 180ms; }
+:root[data-text-transition="reorder"]::view-transition-new(word-is) {
+  animation-delay: 420ms;
+  animation-fill-mode: both;
+}
+
+/* One transition mode per boundary: full slide, carousel, or shared text. */
+[data-vt="cognitive-title"] { view-transition-name: title-cognitive-modelling; }
+::view-transition-group(title-cognitive-modelling) {
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(.25, .1, .25, 1);
+}
+:root[data-slide-transition="section"] [data-vt],
+:root[data-slide-transition="carousel"] [data-vt] { view-transition-name: none; }
+:root[data-slide-transition="carousel"] .slide:not([hidden]) > :is(.example-figure, .example-answer) {
+  view-transition-name: carousel-card;
+}
+
+/* Direction is reversed on backward navigation, including section boundaries. */
+:root[data-transition-axis="horizontal"] { --travel-x: 100vw; --travel-y: 0px; }
+:root[data-transition-axis="vertical"] { --travel-x: 0px; --travel-y: 100vh; }
+:root[data-transition-axis="horizontal"][data-transition-direction="backward"] { --travel-x: -100vw; }
+:root[data-transition-axis="vertical"][data-transition-direction="backward"] { --travel-y: -100vh; }
+@keyframes view-arrive {
+  from { transform: translate(var(--travel-x), var(--travel-y)); }
+  to { transform: translate(0, 0); }
+}
+@keyframes view-depart {
+  from { transform: translate(0, 0); }
+  to { transform: translate(calc(-1 * var(--travel-x)), calc(-1 * var(--travel-y))); }
+}
+::view-transition { overflow: clip; }
+:root[data-slide-transition="section"]::view-transition-old(root) {
+  animation: view-depart 450ms ease-in-out both;
+  mix-blend-mode: normal;
+}
+:root[data-slide-transition="section"]::view-transition-new(root) {
+  animation: view-arrive 450ms ease-in-out both;
+  mix-blend-mode: normal;
+}
+::view-transition-group(carousel-card) { animation-duration: 400ms; }
+:root[data-slide-transition="carousel"]::view-transition-old(carousel-card) {
+  animation: view-depart 400ms ease-in-out both;
+  mix-blend-mode: normal;
+}
+:root[data-slide-transition="carousel"]::view-transition-new(carousel-card) {
+  animation: view-arrive 400ms ease-in-out both;
+  mix-blend-mode: normal;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*),
+  ::view-transition-new(*), ::view-transition-image-pair(*) { animation: none !important; }
+}
+
+/* Keep static content in the viewport-resolution root snapshot, avoiding
+   separate scaled text captures. Only the card or definition lines animate. */
+:root:is([data-slide-transition="carousel"], [data-text-transition="definition-drop"])::view-transition-group(root),
+:root:is([data-slide-transition="carousel"], [data-text-transition="definition-drop"])::view-transition-new(root) { animation: none; }
+:root:is([data-slide-transition="carousel"], [data-text-transition="definition-drop"])::view-transition-old(root) { display: none; }
+:root:is([data-slide-transition="carousel"], [data-text-transition="definition-drop"])::view-transition-new(root) { mix-blend-mode: normal; }
+.slide > h2 { flex-shrink: 0; }
+
+/* Move the whole question first; the definition drops follow automatically. */
+[data-vt-title] { display: inline-block; }
+:root[data-text-transition="definition-drop"] [data-vt-title="intelligent"] {
+  view-transition-name: title-intelligent;
+}
+:root[data-text-transition="definition-drop"] [data-vt="intelligent"] {
+  view-transition-name: none;
+}
+::view-transition-group(title-intelligent) {
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(.25, .1, .25, 1);
+}
+/* Only temporary snapshots drop; every real line stays fully visible in the DOM.
+   Skipping the transition therefore always leaves the complete definition. */
+:root[data-text-transition="definition-drop"] .definition-line:nth-child(1) { view-transition-name: definition-1; }
+:root[data-text-transition="definition-drop"] .definition-line:nth-child(2) { view-transition-name: definition-2; }
+:root[data-text-transition="definition-drop"] .definition-line:nth-child(3) { view-transition-name: definition-3; }
+:root[data-text-transition="definition-drop"] .definition-line:nth-child(4) { view-transition-name: definition-4; }
+:root[data-text-transition="definition-drop"] .definition-line:nth-child(5) { view-transition-name: definition-5; }
+:root[data-text-transition="definition-drop"] .definition-line:nth-child(6) { view-transition-name: definition-6; }
+::view-transition-new(definition-1),
+::view-transition-new(definition-2),
+::view-transition-new(definition-3),
+::view-transition-new(definition-4),
+::view-transition-new(definition-5),
+::view-transition-new(definition-6) {
+  animation: definition-drop 120ms cubic-bezier(.55, 0, 1, 1) both;
+  mix-blend-mode: normal;
+}
+::view-transition-new(definition-1) { animation-delay: 600ms; }
+::view-transition-new(definition-2) { animation-delay: 1000ms; }
+::view-transition-new(definition-3) { animation-delay: 1400ms; }
+::view-transition-new(definition-4) { animation-delay: 1800ms; }
+::view-transition-new(definition-5) { animation-delay: 2200ms; }
+::view-transition-new(definition-6) { animation-delay: 2600ms; }
+@keyframes definition-drop {
+  from { translate: 0 -65px; opacity: 0; }
+  12% { opacity: 1; }
+  to { translate: 0 0; opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*),
+  ::view-transition-new(*), ::view-transition-image-pair(*) { animation: none !important; }
+}
+
+/* Move the photograph and caption to the argument panel on the same timing.
+   Capture caption text tightly; preserve the photo's aspect ratio as its slot
+   changes width. The real flex/grid layout remains untouched. */
+.cat-caption-text { display: inline-block; }
+:root[data-text-transition="cat-figure"] :is(#this-is-not-a-cat, #cat-as-representation) .cat-representation img {
+  view-transition-name: cat-photo;
+}
+:root[data-text-transition="cat-figure"] :is(#this-is-not-a-cat, #cat-as-representation) .cat-caption-text {
+  view-transition-name: cat-caption;
+}
+::view-transition-group(cat-photo),
+::view-transition-group(cat-caption) {
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(.25, .1, .25, 1);
+}
+::view-transition-old(cat-photo),
+::view-transition-old(cat-caption) { display: none; }
+::view-transition-new(cat-photo),
+::view-transition-new(cat-caption) { animation: none; mix-blend-mode: normal; }
+::view-transition-new(cat-photo) {
+  width: 100%; height: 100%; object-fit: contain;
+}
+
+/* In either direction use the tighter panel photo capture, so the wide
+   centered slot's empty margins cannot shrink the cat during the move. */
+:root[data-text-transition="cat-figure"][data-transition-direction="backward"]::view-transition-old(cat-photo) {
+  display: block; animation: none; mix-blend-mode: normal;
+  width: 100%; height: 100%; object-fit: contain;
+}
+:root[data-text-transition="cat-figure"][data-transition-direction="backward"]::view-transition-new(cat-photo) { display: none; }
+
+/* Take time to compare the photograph with its 3D representation. */
+:root[data-slide-transition="slow-fade"]::view-transition-group(root),
+:root[data-slide-transition="slow-fade"]::view-transition-old(root),
+:root[data-slide-transition="slow-fade"]::view-transition-new(root) {
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}

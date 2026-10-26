@@ -1,0 +1,9 @@
+Alan Turing £50 banknote concept artwork (2019), matching the crop supplied by the user.
+Downloaded unchanged from the London Mathematical Society, 524 × 386 pixels:
+https://www.lms.ac.uk/sites/default/files/files/Publications/AMT_banknote50.jpg
+Source page: https://www.lms.ac.uk/alan-turing-banknote
+Original artwork: Bank of England, 15 July 2019.
+https://www.bankofengland.co.uk/news/2019/july/50-pound-banknote-character-announcement
+Copyright: The Governor and Company of the Bank of England 2019; component image credits remain with their respective rights holders.
+This is the concept artwork, not the issued banknote specimen image. No specimen mark has been removed.
+The slide applies a dark CSS overlay and background sizing; the downloaded asset is unchanged.

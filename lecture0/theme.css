@@ -1,0 +1,87 @@
+@import url("vendor/latex-css/style.css") layer(latex);
+
+/* Shared heading/body sizes; dense tables may use an explicit smaller size. */
+@font-face { font-family: "Heros"; src: url("assets/texgyreheros-regular.otf"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Heros"; src: url("assets/texgyreheros-bold.otf"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Pagella"; src: url("assets/texgyrepagella-regular.otf"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Pagella"; src: url("assets/texgyrepagella-bold.otf"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Go"; src: url("assets/Go-Regular.ttf"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Go"; src: url("assets/Go-Bold.ttf"); font-weight: 700; font-display: swap; }
+:root {
+  /* Native controls stay dark too; no browser-preference selection. */
+  color-scheme: dark;
+  --font: "Heros", sans-serif;
+  --heading-weight: 700;
+  --heading-size: 68px;
+  --body-size: 38px;
+  --slide-scale: 1;
+}
+/* Map slide colours to the built-in LaTeX.css palette on the body. */
+body {
+  --paper: var(--body-bg-color);
+  --ink: var(--body-color);
+  --rule: var(--table-border-color);
+}
+:root[data-theme="book"] { --font: "Pagella", serif; --heading-weight: 400; }
+:root[data-theme="humanist"] { --font: "Go", sans-serif; --heading-weight: 400; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; }
+body { max-width: none; padding: 0; hyphens: manual; -webkit-hyphens: manual; overflow: hidden; background: var(--body-bg-color); color: var(--ink); font-family: var(--font); }
+.viewport { position: fixed; inset: 0; display: grid; place-items: center; }
+.stage {
+  position: absolute; left: 50%; top: 50%; width: 1600px; height: 900px;
+  transform: translate(-50%, -50%) scale(var(--slide-scale));
+  background: var(--paper); overflow: hidden;
+}
+.slide {
+  position: absolute; inset: 0; padding: 64px 120px;
+  display: flex; flex-direction: column; gap: 36px;
+  font-size: var(--body-size); line-height: 1.4;
+}
+/* Title-only slides are centered automatically; comments do not count as children. */
+.slide:has(> :is(h1, h2):only-child) { justify-content: center; text-align: center; }
+.slide[hidden] { display: none !important; }
+h1, h2, h3, p, ul, ol, figure { margin: 0; }
+h1, h2, .example-answer p { font-family: var(--font); font-size: var(--heading-size); font-weight: var(--heading-weight); line-height: 1.15; letter-spacing: 0; }
+h3, strong { font-size: inherit; font-weight: 700; }
+p, li, figcaption, table, th, td, span { font-size: inherit; }
+/* Decorative category labels and step numbers are hidden by default. */
+.eyebrow, .step-number { display: none; }
+ul, ol { padding-left: 1.1em; }
+/* Default slide: a heading followed by an ordinary, fully visible bullet list. */
+.slide > ul { display: grid; gap: 32px; margin: 24px 40px 0; }
+.columns.three-columns { grid-template-columns: repeat(3, 1fr); }
+.panel { border: 1px solid var(--rule); padding: 32px; }
+li { padding-left: .12em; }
+.spaced-list { display: grid; gap: 36px; }
+.bottom-note { margin-top: auto; }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; min-height: 0; flex: 1; }
+.columns > * { min-width: 0; min-height: 0; }
+.columns > div { align-self: center; }
+.text-figure { grid-template-columns: 1.05fr 1fr; }
+figure { display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 20px; min-height: 0; min-width: 0; }
+figure img, figure svg, figure canvas, figure video {
+  display: block; width: 100%; height: 100%; min-height: 0;
+  object-fit: contain; object-position: center;
+}
+figcaption { line-height: 1.3; padding: 0; }
+/* Caption numbering can be added deliberately when figures are referenced. */
+figcaption::before { content: none; }
+.slide th[scope="row"] { border-right: 0; }
+.figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; flex: 1; min-height: 0; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.noscript-message { position: fixed; bottom: 0; background: var(--paper); color: var(--ink); padding: 12px; }
+
+
+/* LaTeX article treatment: roman type, centred titles, restrained table rules. */
+:root[data-theme="article"] {
+  --font: "Latin Modern", serif;
+  --heading-weight: 400;
+}
+[data-theme="article"] h1,
+[data-theme="article"] h2 {
+  font-family: var(--font);
+  text-align: center;
+}
+[data-theme="article"] figcaption { text-align: center; font-style: italic; }
+[data-theme="article"] .question-slide { text-align: center; }

@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cognitive Modelling: Introduction to the Concept</title>
+  <script>
+    // Theme choice belongs to the preview URL, not the slide content.
+    const theme = new URLSearchParams(location.search).get('theme');
+    document.documentElement.dataset.theme = ['article', 'plain', 'book', 'humanist'].includes(theme) ? theme : 'article';
+  </script>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="slides.css">
+  <script src="deck.js" defer></script>
+  <script type="module" src="cat-model.js"></script>
+</head>
+<body class="latex-dark">
+  <main class="viewport" aria-label="Lecture slides">
+    <div class="stage">
+
+      <section class="slide title-slide" id="introduction" aria-labelledby="intro-title">
+        <h1 id="intro-title">Cognitive Modelling: Introduction to the Concept</h1>
+        <p class="title-details">LDA-C302 Cognitive Modelling Concepts<br><time datetime="2026-10-26">October 26, 2026</time></p>
+        <div class="authors" aria-label="Lecturers">
+          <span>Jami Pekkanen</span>
+          <span>(Juraj Šimko)</span>
+          <span>(Otto Lappi)</span>
+        </div>
+      </section>
+
+      <section class="slide" id="personnel" aria-labelledby="personnel-title" hidden>
+        <h2 id="personnel-title">Course personnel</h2>
+        
+        <div class="personnel-portraits">
+          <figure>
+            <img src="assets/juraj-simko.jpg" alt="Portrait of Juraj Šimko" width="655" height="718">
+            <figcaption>
+              <span class="person-name">Juraj Šimko</span>
+              <span class="person-role">Senior university lecturer<br>in Phonetics</span>
+              <span class="person-expertise">Speech scientist,<br>mathematician</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="portrait-crop" src="assets/jami-pekkanen.jpg" alt="Portrait of Jami Pekkanen" width="1792" height="2389">
+            <figcaption>
+              <span class="person-name">Jami Pekkanen</span>
+              <span class="person-role">University lecturer<br>in Cognitive Science</span>
+              <span class="person-expertise">Cognitive scientist</span>
+            </figcaption>
+          </figure>
+          <figure class="ghost">
+            <img src="assets/otto-lappi.jpg" alt="Portrait of Otto Lappi" width="560" height="655">
+            <figcaption>
+              <span class="person-name">Otto Lappi</span>
+              <span class="person-role">Senior university lecturer<br>in Cognitive Science</span>
+              <span class="person-expertise">Cognitive scientist,<br>philosopher</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide" id="objectives" aria-labelledby="objectives-title" hidden>
+        <h2 id="objectives-title">Course objectives</h2>
+        <ul>
+          <li>Develop a conceptual understanding of cognitive models.</li>
+          <li>Analyse model assumptions and relate them to theory and evidence.</li>
+          <li>Understand the power and limits of modelling, including simplification and abstraction.</li>
+        </ul>
+        
+      </section>
+
+      <section class="slide" id="course-workflow" aria-labelledby="workflow-title" hidden>
+        <h2 id="workflow-title">How the course works</h2>
+        <ul>
+          <li>Watch the assigned lecture videos before the next meeting.</li>
+          <li>Work through the checkpoint exercises in Moodle.</li>
+          <li>Bring questions to the live Q&A sessions.</li>
+          <li>Use the supplementary resources and readings to explore topics further.</li>
+        </ul>
+        
+      </section>
+
+      <section class="slide" id="meetings" aria-labelledby="meetings-title" hidden>
+        <h2 id="meetings-title">Meetings and materials</h2>
+        <ul>
+          <li>Mondays, 12:15–13:45.</li>
+          <li>26 October – 7 December 2026.</li>
+          <li>Topelia A205, Unioninkatu 38.</li>
+          <li>Schedule, videos, exercises and feedback in Moodle.</li>
+        </ul>
+        
+      </section>
+
+      <section class="slide" id="schedule" aria-labelledby="schedule-title" hidden>
+        <h2 id="schedule-title">Course schedule</h2>
+        <table>
+          <colgroup><col class="date-col"><col class="live-col"><col class="video-col"></colgroup>
+          <thead><tr><th scope="col">Date</th><th scope="col">Live session</th><th scope="col">Videos for next time</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">26 Oct</th><td>Lecture: Introduction</td><td>Symbolic Modelling<br>Reinforcement Learning</td></tr>
+            <tr><th scope="row">2 Nov</th><td>Q&A: Symbolic Modelling and<br>Reinforcement Learning</td><td>Bayesian Modelling<br>Information Theory</td></tr>
+            <tr><th scope="row">9 Nov</th><td>Q&A: Bayesian Modelling and<br>Information Theory</td><td>Dynamical Systems I<br>Dynamical Systems II</td></tr>
+            <tr><th scope="row">16 Nov</th><td>Q&A: Dynamical Systems I and II</td><td>Control Theory<br>Predictive Processing</td></tr>
+            <tr><th scope="row">23 Nov</th><td>Q&A: Control Theory and<br>Predictive Processing</td><td>Neural Networks I<br>Alternative Neural Network Architectures</td></tr>
+            <tr><th scope="row">30 Nov</th><td>Q&A: Neural Networks I and<br>Alternative Neural Network Architectures<br><strong>Lecture: Large Language Models</strong></td><td>TBD</td></tr>
+            <tr><th scope="row">7 Dec</th><td>Q&A: Large Language Models<br>and course recap</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="slide" id="exercises" aria-labelledby="exercises-title" hidden>
+        <h2 id="exercises-title">Checkpoint exercises</h2>
+        <ul>
+          <li>Practise using the concepts introduced in the videos.</li>
+          <li>Use the feedback to revisit ideas that are still unclear.</li>
+          <li>Bring difficult questions to the Q&A sessions.</li>
+          <li>Submission instructions and deadlines will be provided in Moodle.</li>
+        </ul>
+        
+      </section>
+
+      <section class="slide" id="exam" aria-labelledby="exam-title" hidden>
+        <h2 id="exam-title">Final exam</h2>
+        <ul>
+          <li>The final exam takes place in Examinarium.</li>
+          <li>The checkpoint material provides the basis for exam preparation.</li>
+          <li>Exam dates and assessment instructions will be announced in Moodle.</li>
+        </ul>
+        
+      </section>
+
+      <section class="slide" id="practical-questions" aria-labelledby="practical-title" hidden>
+        <h2 id="practical-title">Questions about the course?</h2>
+      </section>
+
+      <section class="slide" id="lecture-proper" aria-labelledby="lecture-proper-title" hidden>
+        <h2 id="lecture-proper-title"><span data-vt="cognitive">Cognitive</span> <span data-vt="modelling">Modelling</span>: <span data-vt="what">What</span>, Why, (How)<span data-vt="question">?</span></h2>
+      </section>
+
+      <section class="slide" id="what-is-cognitive-modelling" aria-labelledby="what-is-title" hidden>
+        <h2 id="what-is-title"><strong data-vt="what">What</strong> <span data-vt="is">is</span> <span data-vt="cognitive">Cognitive</span> <span data-vt="modelling">Modelling</span><span data-vt="question">?</span></h2>
+      </section>
+
+      <section class="slide" id="what-is-cognitive" aria-labelledby="what-cognitive-title" hidden>
+        <h2 id="what-cognitive-title"><strong data-vt="what">What</strong> <span data-vt="is">is</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+      </section>
+
+      <section class="slide" id="cognitive-questions" aria-labelledby="cognitive-questions-title" hidden>
+        <h2 class="split-question" id="cognitive-questions-title" aria-label="What entities are Cognitive? What makes something Cognitive?">
+          <strong data-vt="what">What</strong>
+          <span class="question-branches"><span data-vt="entities">entities are</span><span>makes something</span></span>
+          <span><strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></span>
+        </h2>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-things" aria-labelledby="cognitive-things-title" hidden>
+        <h2 id="cognitive-things-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <figure class="example-figure">
+          <img src="assets/carousel/jami-cutout.png" alt="Jami Pekkanen" width="1087" height="1447">
+          <figcaption>Humans?</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-chatbots" aria-labelledby="cognitive-chatbots-title" hidden>
+        <h2 id="cognitive-chatbots-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <figure class="example-figure">
+          <img src="assets/carousel/chatbot-coins.png" alt="Five physical medallions bearing the OpenAI, Claude, Gemini, DeepSeek and Grok logos" width="1536" height="1024">
+          <figcaption>Chatbots?</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-cat" aria-labelledby="cognitive-cat-title" hidden>
+        <h2 id="cognitive-cat-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <figure class="example-figure">
+          <img src="assets/carousel/cat.png" alt="A black-and-white cat lying down" width="1448" height="1086">
+          <figcaption>Pyllervö (a cat)?</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-delivery-robots" aria-labelledby="cognitive-delivery-robots-title" hidden>
+        <h2 id="cognitive-delivery-robots-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <figure class="example-figure">
+          <img src="assets/carousel/delivery-robot.png" alt="A six-wheeled delivery robot viewed from the front and side" width="1312" height="1199">
+          <figcaption>Delivery robots?</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-bacteria" aria-labelledby="cognitive-bacteria-title" hidden>
+        <h2 id="cognitive-bacteria-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <figure class="example-figure">
+          <img src="assets/carousel/bacterium.png" alt="A three-dimensional illustration of a single rod-shaped bacterium with flagella" width="1536" height="1024">
+          <figcaption>Bacteria?</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-thermostats" aria-labelledby="cognitive-thermostats-title" hidden>
+        <h2 id="cognitive-thermostats-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <figure class="example-figure">
+          <img src="assets/carousel/thermostat.png" alt="A round mechanical thermostat viewed from the front and side" width="1254" height="1254">
+          <figcaption>Thermostats?</figcaption>
+        </figure>
+      </section>
+
+      <section class="slide content-slide" id="cognitive-intelligent-behavior" aria-labelledby="cognitive-answer-title" hidden>
+        <h2 id="cognitive-answer-title"><span data-vt="what">What</span> <span data-vt="entities">entities are</span> <strong data-vt="cognitive">Cognitive</strong><span data-vt="question">?</span></h2>
+        <div class="example-answer">
+          <p>Ones that exhibit<br><strong data-vt="intelligent">Intelligent Behavior</strong>?</p>
+        </div>
+      </section>
+
+      <section class="slide content-slide" id="what-makes-cognitive" aria-labelledby="makes-cognitive-title" hidden>
+        <h2 id="makes-cognitive-title"><span data-vt-title="intelligent">What is <strong data-vt="intelligent">Intelligent Behavior</strong>?</span></h2>
+      </section>
+
+      <section class="slide content-slide" id="intelligent-behavior-definition" aria-labelledby="intelligence-definition-title" hidden>
+        <h2 id="intelligence-definition-title"><span data-vt-title="intelligent">What is <strong data-vt="intelligent">Intelligent Behavior</strong>?</span></h2>
+        <p class="intelligence-definition">
+          <span class="definition-line"><strong>ADAPTIVE</strong></span>
+          <span class="definition-line"><strong>GOAL-ORIENTED</strong></span>
+          <span class="definition-line">behavior in</span>
+          <span class="definition-line"><strong>COMPLEX,</strong></span>
+          <span class="definition-line"><strong>PARTIALLY PREDICTABLE</strong></span>
+          <span class="definition-line">environments.</span>
+        </p>
+        
+      </section>
+
+      <section class="slide content-slide" id="cognitive-is-as-cognitive-does" aria-labelledby="cognitive-does-title" hidden>
+        <div class="banknote-frame">
+          <div class="banknote-text">
+            <h2 id="cognitive-does-title">INTELLIGENCE AS AN EMOTIONAL CONCEPT</h2>
+            <div class="turing-quotation">
+              <blockquote cite="https://dn790006.ca.archive.org/0/items/turing1948/turing1948_text.pdf">
+                <p>“The extent to which we regard something as behaving in an intelligent
+                  manner is determined as much by our own state of mind and training as by
+                  the properties of the object under consideration.”</p>
+              </blockquote>
+              <p class="quote-attribution">A. M. Turing (1948)<br><cite><a href="https://dn790006.ca.archive.org/0/items/turing1948/turing1948_text.pdf">Intelligent Machinery</a></cite></p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="slide" id="cognitive-modelling-focus" aria-labelledby="modelling-focus-title" hidden>
+        <h2 id="modelling-focus-title"><span data-vt="what">What</span> <span data-vt="is">is</span> <span data-vt="cognitive">Cognitive</span> <strong data-vt="modelling">Modelling</strong><span data-vt="question">?</span></h2>
+      </section>
+
+      <section class="slide" id="what-is-modelling" aria-labelledby="what-modelling-title" hidden>
+        <h2 id="what-modelling-title"><span data-vt="what">What</span> <span data-vt="is">is</span> <strong data-vt="modelling">Modelling</strong><span data-vt="question">?</span></h2>
+      </section>
+
+      <section class="slide paper-slide" id="this-is-not-a-cat" aria-labelledby="cat-modelling-title" hidden>
+        <h3 id="cat-modelling-title" style="text-align: center">“All models are wrong, but some are useful.”</h3>
+        <figure class="cat-representation">
+          <img src="assets/pyllervo_standing_fg_shadow.png" alt="Pyllervö standing" width="941" height="1104">
+          <figcaption lang="fr"><span class="cat-caption-text">Ceci n’est pas un chat</span></figcaption>
+        </figure>
+        
+        
+      </section>
+
+      <section class="slide paper-slide" id="cat-as-representation" aria-labelledby="cat-representation-title" hidden>
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-representation-title">A model simplifies for a purpose</h2>
+            
+            <ul>
+              <li>A cat has countless properties.</li>
+              <li>Pick properties we can use and understand.</li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            
+            <img src="assets/pyllervo_standing_fg_shadow.png" alt="Pyllervö standing" width="941" height="1104">
+            <figcaption lang="fr"><span class="cat-caption-text">Ceci n’est pas un chat</span></figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide" id="modelling-cat-shape" aria-labelledby="cat-shape-title" hidden>
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-shape-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>A cat has countless properties.</li>
+              <li>Pick properties we can use and understand.</li>
+              <li>What do we need to observe her from another angle?</li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            
+            <img src="assets/pyllervo_standing_fg_shadow.png" alt="Pyllervö standing" width="941" height="1104">
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide cat-model-slide" id="modelling-cat-3d" aria-labelledby="cat-3d-title" hidden>
+        <div class="cat-model" role="group" aria-label="Interactive 3D model of Pyllervö: drag to rotate, right-drag to pan, scroll to zoom">
+          <p class="cat-model-status" role="status">Loading 3D model…</p>
+        </div>
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-3d-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>A cat has countless properties.</li>
+              <li>Pick properties we can use and understand.</li>
+              <li>What do we need to observe her from another angle?
+                <ul>
+                  <li>We can <strong>model</strong> her as a textured 3D mesh.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            
+            <div class="cat-camera-frame" aria-hidden="true"></div>
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide cat-model-slide" id="modelling-cat-volume" data-cat-finish="bronze" aria-labelledby="cat-volume-title" hidden>
+        
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-volume-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>How much bronze do we need for a statue of Pyllervö?</li>
+              <li>We need to know her volume.</li>
+              <li>We could dip her into a bathtub, but she wouldn't like it.</li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            <div class="cat-camera-frame" aria-hidden="true"></div>
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide cat-model-slide" id="modelling-cat-sphere" data-cat-finish="bronze" data-cat-shape="sphere" aria-labelledby="cat-sphere-title" hidden>
+        
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-sphere-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>How much bronze do we need for a statue of Pyllervö?</li>
+              <li>We need to know her volume.</li>
+              <li>We could dip her into a bathtub, but she wouldn't like it.</li>
+              <li>Assume a spherical cat...
+                <div class="model-calculation">
+                  <i>r</i> ≈ 9.3 cm<br>
+                  <i>V</i> = (4/3)π<i>r</i><sup>3</sup> ≈ 3.4 litres
+                </div>
+              </li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            <div class="cat-camera-frame" aria-hidden="true"></div>
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide cat-model-slide" id="modelling-cat-packing" data-cat-shape="cat" aria-labelledby="cat-packing-title" hidden>
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-packing-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>How big a box do we need for 27 Pyllervös?</li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            <div class="cat-camera-frame" aria-hidden="true"></div>
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide cat-model-slide" id="modelling-cat-cube" data-cat-shape="cube" aria-labelledby="cat-cube-title" hidden>
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-cube-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>How big a box do we need for 27 Pyllervös?</li>
+              <li>Assume a cubic cat...
+                <div class="model-calculation">
+                  <i>V</i> ≈ 3.4 litres = 3400 cm<sup>3</sup><br>
+                  <i>a</i> = ∛<i>V</i> ≈ 15 cm
+                </div>
+              </li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            <div class="cat-camera-frame" aria-hidden="true"></div>
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide paper-slide cat-model-slide" id="modelling-cat-stack" data-cat-packing="27" data-cat-shape="cube" aria-labelledby="cat-stack-title" hidden>
+        <div class="columns modelling-panels">
+          <div class="modelling-text">
+            <h2 id="cat-stack-title">A model simplifies for a purpose</h2>
+            <ul>
+              <li>How big a box do we need for 27 Pyllervös?</li>
+              <li>Assume a cubic cat...
+                <div class="model-calculation">
+                  <i>V</i> ≈ 3.4 litres = 3400 cm<sup>3</sup><br>
+                  <i>a</i> = ∛<i>V</i> ≈ 15 cm
+                </div>
+              </li>
+              <li>Stack them up 3 × 3 × 3.</li>
+              <li>A box about 45 cm × 45 cm × 45 cm.</li>
+            </ul>
+          </div>
+          <figure class="cat-representation">
+            <div class="cat-camera-frame" aria-hidden="true"></div>
+            <figcaption lang="fr">Ceci n’est pas un chat</figcaption>
+          </figure>
+        </div>
+        
+      </section>
+
+      <section class="slide" id="cognitive-modelling-together" aria-labelledby="cognitive-modelling-title" hidden>
+        <h2 id="cognitive-modelling-title"><span data-vt="cognitive-title">What is <strong>Cognitive Modelling</strong>?</span></h2>
+      </section>
+
+      <section class="slide" id="cognitive-modelling-definition" aria-labelledby="cognitive-modelling-definition-title" hidden>
+        <header class="illustrated-heading">
+          <h2 id="cognitive-modelling-definition-title"><span data-vt="cognitive-title">What is <strong>Cognitive Modelling</strong>?</span></h2>
+        </header>
+        <div class="columns loop-panels">
+          <div class="loop-copy">
+            <ul>
+              <li><strong>The perception-action loop.</strong></li>
+              <li>Model <strong>information processing</strong> that turns <strong>perception</strong> into <strong>action</strong>.
+                <ul>
+                  <li>“The rules of the behavior”</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <figure class="perception-loop">
+            <svg viewBox="0 0 540 420" role="img" aria-labelledby="perception-action-loop-description">
+              <desc id="perception-action-loop-description">Perception feeds information processing, which produces action. The environment closes the loop.</desc>
+              <defs><marker id="perception-action-loop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs>
+              <rect class="loop-box" x="55" y="170" width="160" height="80"/>
+              <text x="135" y="218">Perception</text>
+              <rect class="loop-box" x="165" y="10" width="210" height="80"/>
+              <text x="270" y="43" font-weight="700">Information<tspan x="270" dy="27">processing</tspan></text>
+              <rect class="loop-box" x="325" y="170" width="160" height="80"/>
+              <text x="405" y="218">Action</text>
+              <rect class="loop-box" x="190" y="330" width="160" height="80"/>
+              <text x="270" y="378">Environment</text>
+              <path class="loop-arrow" marker-end="url(#perception-action-loop-arrow)" d="M135 170C135 50 135 50 165 50"/>
+              <path class="loop-arrow" marker-end="url(#perception-action-loop-arrow)" d="M375 50C405 50 405 50 405 170"/>
+              <path class="loop-arrow" marker-end="url(#perception-action-loop-arrow)" d="M405 250C405 370 405 370 350 370"/>
+              <path class="loop-arrow" marker-end="url(#perception-action-loop-arrow)" d="M190 370C135 370 135 370 135 250"/>
+            </svg>
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide" id="frog-loop" aria-labelledby="frog-loop-title" hidden>
+        <header class="illustrated-heading frog-heading">
+          <h2 id="frog-loop-title">Cognition in fly-catching</h2>
+          <img src="assets/frog-catching-fly.png" alt="A frog catching a fly with its extended tongue" width="1774" height="887">
+        </header>
+        <div class="columns loop-panels">
+          <div class="loop-copy">
+            <ul>
+              <li>A moving image falls on the retina.</li>
+              <li>Detect a small, dark, convex object.</li>
+              <li>Use its location to aim and trigger a tongue strike.</li>
+            </ul>
+          </div>
+          <figure class="perception-loop">
+            <svg viewBox="0 0 540 420" role="img" aria-labelledby="frog-perception-action-loop-description">
+              <desc id="frog-perception-action-loop-description">A schematic prey-catching loop: the retinal image is processed by a net convexity detector as part of the pathway leading to a tongue strike. The action changes the scene the frog sees.</desc>
+              <defs><marker id="frog-perception-action-loop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs>
+              <rect class="loop-box" x="55" y="170" width="160" height="80"/>
+              <text x="135" y="218">Retinal image</text>
+              <rect class="loop-box" x="165" y="10" width="210" height="80"/>
+              <text x="270" y="43" font-weight="700">Net convexity<tspan x="270" dy="27">detector</tspan></text>
+              <rect class="loop-box" x="325" y="170" width="160" height="80"/>
+              <text x="405" y="203">Tongue<tspan x="405" dy="27">strike</tspan></text>
+              <rect class="loop-box" x="190" y="330" width="160" height="80"/>
+              <text x="270" y="378">Surroundings</text>
+              <path class="loop-arrow" marker-end="url(#frog-perception-action-loop-arrow)" d="M135 170C135 50 135 50 165 50"/>
+              <path class="loop-arrow" marker-end="url(#frog-perception-action-loop-arrow)" d="M375 50C405 50 405 50 405 170"/>
+              <path class="loop-arrow" marker-end="url(#frog-perception-action-loop-arrow)" d="M405 250C405 370 405 370 350 370"/>
+              <path class="loop-arrow" marker-end="url(#frog-perception-action-loop-arrow)" d="M190 370C135 370 135 370 135 250"/>
+            </svg>
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide" id="thermostat-loop" aria-labelledby="thermostat-loop-title" hidden>
+        <header class="illustrated-heading">
+          <h2 id="thermostat-loop-title">The cognition of a thermostat</h2>
+          <img src="assets/carousel/thermostat.png" alt="A round mechanical thermostat" width="1254" height="1254">
+        </header>
+        <div class="columns loop-panels">
+          <div class="loop-copy">
+            <ul>
+              <li><strong>Goal:</strong> keep the temperature at the setpoint <i>T</i><sub>0</sub>.</li>
+              <li><strong>Adaptive behavior:</strong> adjust heating power as the measured temperature <i>T</i> changes.</li>
+              <li><strong>Partially predictable environment:</strong> weather changes, doors open.</li>
+            </ul>
+          </div>
+          <figure class="perception-loop">
+            <svg viewBox="0 0 540 420" role="img" aria-labelledby="thermostat-loop-description">
+              <desc id="thermostat-loop-description">Heating power P equals gain k times the difference between setpoint T zero and measured temperature T. Heating affects the room temperature, closing the feedback loop.</desc>
+              <defs><marker id="thermostat-loop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="currentColor" stroke-width="1.5"/></marker></defs>
+              <rect class="loop-box" x="55" y="170" width="160" height="80"/>
+              <text x="135" y="218">Temperature</text>
+              <rect class="loop-box" x="165" y="10" width="210" height="80"/>
+              <text x="270" y="58"><tspan font-style="italic">P</tspan> = <tspan font-style="italic">k</tspan>(<tspan font-style="italic">T</tspan><tspan baseline-shift="sub" font-size="70%">0</tspan> − <tspan font-style="italic">T</tspan>)</text>
+              <rect class="loop-box" x="325" y="170" width="160" height="80"/>
+              <text x="405" y="203">Heating<tspan x="405" dy="27">power</tspan></text>
+              <rect class="loop-box" x="190" y="330" width="160" height="80"/>
+              <text x="270" y="378">Room</text>
+              <path class="loop-arrow" marker-end="url(#thermostat-loop-arrow)" d="M135 170C135 50 135 50 165 50"/>
+              <path class="loop-arrow" marker-end="url(#thermostat-loop-arrow)" d="M375 50C405 50 405 50 405 170"/>
+              <path class="loop-arrow" marker-end="url(#thermostat-loop-arrow)" d="M405 250C405 370 405 370 350 370"/>
+              <path class="loop-arrow" marker-end="url(#thermostat-loop-arrow)" d="M190 370C135 370 135 370 135 250"/>
+            </svg>
+          </figure>
+        </div>
+      </section>
+
+      
+      <section class="slide content-slide turing-note-background" id="finding-behavior-rules" aria-labelledby="behavior-rules-title" hidden>
+        
+        <div class="turing-quotation">
+          <h3 class="quote-heading">INTELLIGENCE AS AN EMOTIONAL CONCEPT</h3>
+          <blockquote cite="https://dn790006.ca.archive.org/0/items/turing1948/turing1948_text.pdf">
+            <p>“If we are able to <strong>explain and predict [something's] behaviour</strong> or if there seems
+              to be little underlying plan, we have little temptation to imagine intelligence.
+              With the <strong>same object therefore it is possible that one man would consider it
+              as intelligent and another would not</strong>; <strong>the second man would have found out
+              the rules of its behaviour</strong>.”</p>
+          </blockquote>
+          <p class="quote-attribution">A. M. Turing (1948)<br><cite><a href="https://dn790006.ca.archive.org/0/items/turing1948/turing1948_text.pdf">Intelligent Machinery</a></cite></p>
+        </div>
+        
+      </section>
+
+      <section class="slide" id="next-time" aria-labelledby="next-title" hidden>
+        <h2 id="next-title">For next time</h2>
+        <ul>
+          <li>Watch Symbolic Modelling.</li>
+          <li>Watch Reinforcement Learning.</li>
+          <li>Complete the checkpoint exercises in Moodle.</li>
+          <li>Q&A: 2 November, 12:15–13:45.</li>
+        </ul>
+        
+      </section>
+
+    </div>
+  </main>
+  <noscript><p class="noscript-message">Enable JavaScript to step through the slides.</p></noscript>
+</body>
+</html>
